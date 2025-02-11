@@ -1,0 +1,1082 @@
+Nov 15 14:06:26 raspberrypi rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="361" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Nov 15 14:06:26 raspberrypi rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="361" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Nov 15 14:06:27 raspberrypi systemd[1]: logrotate.service: Succeeded.
+Nov 15 14:06:27 raspberrypi systemd[1]: Started Rotate log files.
+Nov 15 14:06:29 raspberrypi systemd[1]: man-db.service: Succeeded.
+Nov 15 14:06:29 raspberrypi systemd[1]: Started Daily man-db regeneration.
+Nov 15 14:06:30 raspberrypi systemd[1]: apt-daily.service: Succeeded.
+Nov 15 14:06:30 raspberrypi systemd[1]: Started Daily apt download activities.
+Nov 15 14:06:30 raspberrypi systemd[1]: Starting Daily apt upgrade and clean activities...
+Nov 15 14:06:32 raspberrypi systemd[1]: apt-daily-upgrade.service: Succeeded.
+Nov 15 14:06:32 raspberrypi systemd[1]: Started Daily apt upgrade and clean activities.
+Nov 15 14:06:32 raspberrypi systemd[1]: systemd-hostnamed.service: Succeeded.
+Nov 15 14:10:08 raspberrypi systemd[1]: Started Session c3 of user pi.
+Nov 15 14:10:56 raspberrypi vsce-sign: Package file size:  1825946
+Nov 15 14:10:56 raspberrypi vsce-sign: Signature archive file size:  10839
+Nov 15 14:10:56 raspberrypi vsce-sign: Manifest file size:  4117
+Nov 15 14:10:56 raspberrypi vsce-sign: Signature file size:  12151
+Nov 15 14:10:58 raspberrypi vsce-sign: ManifestPackageIntegrityPolicy succeeded.
+Nov 15 14:10:58 raspberrypi vsce-sign: SignatureIntegrityPolicy for primary signature succeeded.
+Nov 15 14:10:58 raspberrypi vsce-sign: SignatureValidityPolicy for primary signature succeeded.
+Nov 15 14:10:59 raspberrypi vsce-sign: SignatureIntegrityPolicy for primary timestamp signature succeeded.
+Nov 15 14:10:59 raspberrypi vsce-sign: SignatureValidityPolicy for primary timestamp signature succeeded.
+Nov 15 14:10:59 raspberrypi vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for timestamping.
+Nov 15 14:11:00 raspberrypi vsce-sign: SignatureTrustPolicy for repository primary signature timestamp signature succeeded.
+Nov 15 14:11:00 raspberrypi vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for code signing.
+Nov 15 14:11:01 raspberrypi vsce-sign: SignatureTrustPolicy for repository primary signature succeeded.
+Nov 15 14:11:01 raspberrypi vsce-sign: RepositoryCountersignaturePolicy for repository primary signature succeeded.
+Nov 15 14:11:01 raspberrypi vsce-sign: Primary signature type:  repository primary signature
+Nov 15 14:11:01 raspberrypi vsce-sign: Primary signature status:  OK
+Nov 15 14:11:01 raspberrypi vsce-sign: Timestamp signature status:  OK
+Nov 15 14:11:01 raspberrypi vsce-sign: Exit code:  Success
+Nov 15 14:11:40 raspberrypi systemd[1]: Started Session c4 of user pi.
+Nov 15 14:12:11 raspberrypi systemd[1]: Started Session c5 of user pi.
+Nov 15 14:17:01 raspberrypi CRON[1413]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 15 14:21:25 raspberrypi systemd[1]: Starting Cleanup of Temporary Directories...
+Nov 15 14:21:25 raspberrypi systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Nov 15 14:21:25 raspberrypi systemd[1]: Started Cleanup of Temporary Directories.
+Nov 15 14:28:57 raspberrypi systemd[1]: session-c4.scope: Succeeded.
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: bits received from HRNG source: 80064
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: bits sent to kernel pool: 34848
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: entropy added to kernel pool: 34848
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: FIPS 140-2 successes: 4
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: FIPS 140-2 failures: 0
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: HRNG source speed: (min=429.712; avg=544.088; max=830.022)Kibits/s
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: FIPS tests speed: (min=1.175; avg=2.419; max=7.036)Mibits/s
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: Lowest ready-buffers level: 2
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: Entropy starvations: 0
+Nov 15 15:05:56 raspberrypi rngd[349]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Nov 15 15:17:01 raspberrypi CRON[2481]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: bits received from HRNG source: 120064
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: bits sent to kernel pool: 64608
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: entropy added to kernel pool: 64608
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: FIPS 140-2 successes: 6
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: FIPS 140-2 failures: 0
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: HRNG source speed: (min=429.712; avg=614.516; max=831.188)Kibits/s
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: FIPS tests speed: (min=1.175; avg=3.097; max=7.056)Mibits/s
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: Lowest ready-buffers level: 2
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: Entropy starvations: 0
+Nov 15 16:05:56 raspberrypi rngd[349]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Nov 15 16:17:01 raspberrypi CRON[2555]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: bits received from HRNG source: 140064
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: bits sent to kernel pool: 94848
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: entropy added to kernel pool: 94848
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: FIPS 140-2 successes: 7
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: FIPS 140-2 failures: 0
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: HRNG source speed: (min=429.712; avg=638.452; max=833.173)Kibits/s
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: FIPS tests speed: (min=1.175; avg=3.367; max=7.056)Mibits/s
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: Lowest ready-buffers level: 2
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: Entropy starvations: 0
+Nov 15 17:05:56 raspberrypi rngd[349]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Nov 15 17:17:02 raspberrypi CRON[2628]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: bits received from HRNG source: 180064
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: bits sent to kernel pool: 124608
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: entropy added to kernel pool: 124608
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: FIPS 140-2 successes: 9
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: FIPS 140-2 failures: 0
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: HRNG source speed: (min=429.712; avg=673.442; max=834.063)Kibits/s
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: FIPS tests speed: (min=1.175; avg=3.809; max=7.059)Mibits/s
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: Lowest ready-buffers level: 2
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: Entropy starvations: 0
+Nov 15 18:05:56 raspberrypi rngd[349]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Nov 15 18:17:01 raspberrypi CRON[2701]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 15 19:05:18 raspberrypi systemd[1]: Reloading.
+Nov 15 19:05:19 raspberrypi systemd[1]: Starting Daily apt download activities...
+Nov 15 19:05:21 raspberrypi systemd[1]: apt-daily.service: Succeeded.
+Nov 15 19:05:21 raspberrypi systemd[1]: Started Daily apt download activities.
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: bits received from HRNG source: 200064
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: bits sent to kernel pool: 154848
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: entropy added to kernel pool: 154848
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: FIPS 140-2 successes: 10
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: FIPS 140-2 failures: 0
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: HRNG source speed: (min=429.712; avg=686.579; max=834.063)Kibits/s
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: FIPS tests speed: (min=1.175; avg=3.992; max=7.059)Mibits/s
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: Lowest ready-buffers level: 2
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: Entropy starvations: 0
+Nov 15 19:05:56 raspberrypi rngd[349]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Nov 15 19:05:58 raspberrypi systemd[1]: Starting Run terminalInfo at boot...
+Nov 15 19:05:58 raspberrypi systemd[3884]: terminalInfo.service: Failed to execute command: No such file or directory
+Nov 15 19:05:58 raspberrypi systemd[3884]: terminalInfo.service: Failed at step EXEC spawning /etc/systemd/system/terminalInfo.sh: No such file or directory
+Nov 15 19:05:58 raspberrypi systemd[1]: terminalInfo.service: Main process exited, code=exited, status=203/EXEC
+Nov 15 19:05:58 raspberrypi systemd[1]: terminalInfo.service: Failed with result 'exit-code'.
+Nov 15 19:05:58 raspberrypi systemd[1]: Failed to start Run terminalInfo at boot.
+Nov 15 19:10:43 raspberrypi systemd[4645]: terminalInfo.service: Failed to execute command: No such file or directory
+Nov 15 19:10:43 raspberrypi systemd[4645]: terminalInfo.service: Failed at step EXEC spawning /etc/systemd/system/terminalInfo.sh: No such file or directory
+Nov 15 19:10:43 raspberrypi systemd[1]: Starting Run terminalInfo at boot...
+Nov 15 19:10:43 raspberrypi systemd[1]: terminalInfo.service: Main process exited, code=exited, status=203/EXEC
+Nov 15 19:10:43 raspberrypi systemd[1]: terminalInfo.service: Failed with result 'exit-code'.
+Nov 15 19:10:43 raspberrypi systemd[1]: Failed to start Run terminalInfo at boot.
+Nov 15 19:11:40 raspberrypi systemd[1]: Reloading.
+Nov 15 19:11:45 raspberrypi systemd[1]: Starting Run terminalInfo at boot...
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: ---- System Information Script ----
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: Current Running Processes:
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root         1  0.0  0.8  34732  8148 ?        Ss   14:05   0:05 /sbin/init splash
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root         2  0.0  0.0      0     0 ?        S    14:05   0:00 [kthreadd]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root         3  0.0  0.0      0     0 ?        I<   14:05   0:00 [rcu_gp]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root         4  0.0  0.0      0     0 ?        I<   14:05   0:00 [rcu_par_gp]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root         8  0.0  0.0      0     0 ?        I<   14:05   0:00 [mm_percpu_wq]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root         9  0.0  0.0      0     0 ?        S    14:05   0:00 [ksoftirqd/0]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        10  0.0  0.0      0     0 ?        I    14:05   0:14 [rcu_sched]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        11  0.0  0.0      0     0 ?        I    14:05   0:00 [rcu_bh]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        12  0.0  0.0      0     0 ?        S    14:05   0:00 [migration/0]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        13  0.0  0.0      0     0 ?        S    14:05   0:00 [cpuhp/0]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        14  0.0  0.0      0     0 ?        S    14:05   0:00 [cpuhp/1]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        15  0.0  0.0      0     0 ?        S    14:05   0:00 [migration/1]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        16  0.0  0.0      0     0 ?        S    14:05   0:00 [ksoftirqd/1]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        19  0.0  0.0      0     0 ?        S    14:05   0:00 [cpuhp/2]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        20  0.0  0.0      0     0 ?        S    14:05   0:00 [migration/2]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        21  0.0  0.0      0     0 ?        S    14:05   0:00 [ksoftirqd/2]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        24  0.0  0.0      0     0 ?        S    14:05   0:00 [cpuhp/3]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        25  0.0  0.0      0     0 ?        S    14:05   0:00 [migration/3]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        26  0.0  0.0      0     0 ?        S    14:05   0:00 [ksoftirqd/3]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        29  0.0  0.0      0     0 ?        S    14:05   0:00 [kdevtmpfs]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        30  0.0  0.0      0     0 ?        I<   14:05   0:00 [netns]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        33  0.0  0.0      0     0 ?        I    14:05   0:00 [kworker/2:1-mm_percpu_wq]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        34  0.0  0.0      0     0 ?        S    14:05   0:00 [khungtaskd]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        35  0.0  0.0      0     0 ?        S    14:05   0:00 [oom_reaper]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        36  0.0  0.0      0     0 ?        I<   14:05   0:00 [writeback]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        37  0.0  0.0      0     0 ?        S    14:05   0:00 [kcompactd0]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        38  0.0  0.0      0     0 ?        I<   14:05   0:00 [crypto]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        39  0.0  0.0      0     0 ?        I<   14:05   0:00 [kblockd]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        40  0.0  0.0      0     0 ?        S    14:05   0:00 [watchdogd]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        41  0.0  0.0      0     0 ?        I<   14:05   0:00 [rpciod]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        42  0.0  0.0      0     0 ?        I<   14:05   0:00 [kworker/u9:0-hci0]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        43  0.0  0.0      0     0 ?        I<   14:05   0:00 [xprtiod]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        46  0.0  0.0      0     0 ?        S    14:05   0:00 [kswapd0]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        47  0.0  0.0      0     0 ?        I<   14:05   0:00 [nfsiod]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        58  0.0  0.0      0     0 ?        I<   14:05   0:00 [kthrotld]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        60  0.0  0.0      0     0 ?        I<   14:05   0:00 [iscsi_eh]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        61  0.0  0.0      0     0 ?        I<   14:05   0:00 [dwc_otg]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        62  0.0  0.0      0     0 ?        I<   14:05   0:00 [DWC Notificatio]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        64  0.0  0.0      0     0 ?        S<   14:05   0:00 [vchiq-slot/0]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        65  0.0  0.0      0     0 ?        S<   14:05   0:00 [vchiq-recy/0]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        66  0.0  0.0      0     0 ?        S<   14:05   0:00 [vchiq-sync/0]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        67  0.0  0.0      0     0 ?        S    14:05   0:00 [vchiq-keep/0]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        68  0.0  0.0      0     0 ?        S<   14:05   0:00 [SMIO]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        69  0.0  0.0      0     0 ?        S    14:05   0:06 [irq/86-mmc1]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        71  0.0  0.0      0     0 ?        I<   14:05   0:00 [mmc_complete]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        72  0.0  0.0      0     0 ?        I<   14:05   0:00 [kworker/3:1H-kblockd]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        75  0.0  0.0      0     0 ?        I<   14:05   0:00 [kworker/1:2H-kblockd]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        76  0.0  0.0      0     0 ?        S    14:05   0:01 [jbd2/mmcblk0p7-]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        77  0.0  0.0      0     0 ?        I<   14:05   0:00 [ext4-rsv-conver]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        79  0.0  0.0      0     0 ?        I<   14:05   0:00 [ipv6_addrconf]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root        97  0.0  0.0      0     0 ?        I<   14:05   0:00 [kworker/2:2H-kblockd]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       101  0.0  0.0      0     0 ?        I<   14:05   0:00 [kworker/0:2H-mmc_complete]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       109  0.0  0.7  19084  6808 ?        Rs   14:05   0:01 /lib/systemd/systemd-journald
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       139  0.0  0.4  18428  3856 ?        Ss   14:05   0:01 /lib/systemd/systemd-udevd
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       159  0.0  0.0      0     0 ?        S<   14:05   0:00 [SMIO]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       182  0.0  0.0      0     0 ?        I<   14:05   0:00 [mmal-vchiq]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       184  0.0  0.0      0     0 ?        I<   14:05   0:00 [mmal-vchiq]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       185  0.0  0.0      0     0 ?        I<   14:05   0:00 [mmal-vchiq]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       210  0.0  0.0      0     0 ?        I<   14:05   0:00 [cfg80211]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       213  0.0  0.0      0     0 ?        I<   14:05   0:00 [brcmf_wq/mmc1:0]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       214  0.0  0.0      0     0 ?        S    14:05   0:04 [brcmf_wdog/mmc1]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       215  0.0  0.0      0     0 ?        I    14:05   0:02 [kworker/0:3-events]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: systemd+   268  0.0  0.5  22372  5620 ?        Ssl  14:05   0:00 /lib/systemd/systemd-timesyncd
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       307  0.0  0.6  13128  5888 ?        Ss   14:05   0:00 /lib/systemd/systemd-logind
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: avahi      308  0.0  0.2   5904  2548 ?        Ss   14:05   0:06 avahi-daemon: running [raspberrypi.local]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: nobody     309  0.0  0.2   4320  2152 ?        Ss   14:05   0:00 /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --socket /run/thd.socket --user nobody --deviceglob /dev/input/event*
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       314  0.0  0.9  63280  9100 ?        Ssl  14:05   0:00 /usr/lib/udisks2/udisksd
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       316  0.0  0.0   3692   708 ?        SNs  14:05   0:00 /usr/sbin/alsactl -E HOME=/run/alsa -s -n 19 -c rdaemon
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: message+   325  0.0  0.3   6760  3740 ?        Ss   14:05   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       337  0.0  0.4  10700  4064 ?        Ss   14:05   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       347  0.0  0.2   7944  2352 ?        Ss   14:05   0:00 /usr/sbin/cron -f
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: avahi      348  0.0  0.0   5772   252 ?        S    14:05   0:00 avahi-daemon: chroot helper
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       349  0.0  0.0  27656    80 ?        SLsl 14:05   0:06 /usr/sbin/rngd -r /dev/hwrng
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       361  0.0  0.2  25512  2792 ?        Ssl  14:05   0:00 /usr/sbin/rsyslogd -n -iNONE
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       387  0.0  0.1   2896  1880 ?        Ss   14:05   0:00 /sbin/dhcpcd -q -b
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       420  0.0  0.6  37960  5792 ?        Ssl  14:05   0:00 /usr/lib/policykit-1/polkitd --no-debug
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       424  0.0  0.6  37500  5812 ?        Ssl  14:05   0:00 /usr/sbin/lightdm
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       432  0.0  0.6  10684  5716 ?        Ss   14:05   0:00 /usr/sbin/sshd -D
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       440  0.0  4.1 183624 38996 tty7     Ssl+ 14:05   0:02 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       441  0.0  0.2   5620  2420 tty1     Ss   14:05   0:00 /bin/login -f
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       445  0.0  0.4  11084  4252 ?        Ss   14:05   0:04 wpa_supplicant -B -c/etc/wpa_supplicant/wpa_supplicant.conf -iwlan0 -Dnl80211,wext
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       480  0.0  0.6  29904  6048 ?        Sl   14:05   0:00 lightdm --session-child 14 17
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         488  0.0  0.7  14660  7156 ?        Ss   14:06   0:00 /lib/systemd/systemd --user
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         491  0.0  0.1  16700  1664 ?        S    14:06   0:00 (sd-pam)
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         502  0.0  1.1  54456 11084 ?        Ssl  14:06   0:00 /usr/bin/lxsession -s LXDE-pi -e LXDE
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         511  0.0  0.3   6548  2956 ?        Ss   14:06   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         535  0.0  0.0   4480   312 ?        Ss   14:06   0:00 /usr/bin/ssh-agent x-session-manager
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       546  0.0  0.0   2140   128 ?        S    14:06   0:00 /usr/bin/hciattach /dev/serial1 bcm43xx 921600 noflow - b8:27:eb:12:8d:69
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       547  0.0  0.0      0     0 ?        I<   14:06   0:00 [kworker/u9:2-hci0]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       551  0.0  0.4   9808  4316 ?        Ss   14:06   0:00 /usr/lib/bluetooth/bluetoothd
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         554  0.0  0.6  43408  5960 ?        Ssl  14:06   0:00 /usr/lib/gvfs/gvfsd
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       555  0.0  0.4  26704  4188 ?        Ssl  14:06   0:00 /usr/bin/bluealsa
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root       569  0.0  0.0      0     0 ?        S<   14:06   0:00 [krfcommd]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         574  0.0  0.5  54508  5104 ?        Sl   14:06   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         581  0.0  1.5  62424 14752 ?        S    14:06   0:00 openbox --config-file /home/pi/.config/openbox/lxde-pi-rc.xml
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         585  0.0  0.9  47132  9004 ?        Sl   14:06   0:00 lxpolkit
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         588  0.0  3.0 158072 28920 ?        Sl   14:06   0:14 lxpanel --profile LXDE-pi
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         592  0.0  2.2  82096 21060 ?        Sl   14:06   0:01 pcmanfm --desktop --profile LXDE-pi
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         601  0.0  0.0   4480   312 ?        Ss   14:06   0:00 /usr/bin/ssh-agent -s
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         606  0.0  0.3   8492  3792 tty1     S+   14:06   0:00 -bash
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         649  0.0  0.9  79340  9196 ?        Ssl  14:06   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         653  0.0  0.7  56020  6996 ?        Ssl  14:06   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         660  0.0  0.4  40124  4636 ?        Ssl  14:06   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         662  0.0  0.5  26440  5152 ?        Sl   14:06   0:00 /usr/lib/menu-cache/menu-cached /run/user/1000/menu-cached-:0
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         669  0.0  0.4  40100  4300 ?        Ssl  14:06   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         673  0.0  0.5  41692  5016 ?        Ssl  14:06   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi         678  0.0  0.6  52856  6544 ?        Sl   14:06   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi        1034  0.0  0.0   1940   380 ?        S    14:10   0:00 sh /home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/code-server --connection-token=remotessh --accept-server-license-terms --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-ac92692e-b4fb-4bd4-a473-70201a6992e5
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi        1038  0.3  7.6 188104 72136 ?        Sl   14:10   1:08 /home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node /home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/server-main.js --connection-token=remotessh --accept-server-license-terms --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-ac92692e-b4fb-4bd4-a473-70201a6992e5
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi        1077  0.2  6.0 209188 57528 ?        Sl   14:10   0:46 /home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node /home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/bootstrap-fork --type=ptyHost --logsPath /home/pi/.vscode-server/data/logs/20241115T141042
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      1112  0.0  0.0      0     0 ?        I<   14:10   0:00 [kworker/1:0H]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      1126  0.0  0.0      0     0 ?        I<   14:11   0:00 [kworker/0:0H]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      1127  0.0  0.0      0     0 ?        I<   14:11   0:00 [kworker/2:0H]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      1156  0.0  0.6  12184  5960 ?        Ss   14:12   0:00 sshd: pi [priv]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi        1167  0.0  0.4  12440  4348 ?        S    14:12   0:06 sshd: pi@notty
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi        1169  0.0  0.1   1940  1260 ?        Ss   14:12   0:00 sh
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi        1189  0.1  1.4  43308 13536 ?        Sl   14:12   0:20 /home/pi/.vscode-server/code-f1a4fb101478ce6ec82fe9627c43efbf9e98c813 command-shell --cli-data-dir /home/pi/.vscode-server/cli --parent-process-id 1169 --on-host=127.0.0.1 --on-port
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi        1231  0.4 16.2 275936 153956 ?       Sl   14:12   1:27 /home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node --dns-result-order=ipv4first /home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi        1238  0.0  4.6 182164 44396 ?        Sl   14:12   0:03 /home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node /home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/bootstrap-fork --type=fileWatcher
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi        1337  0.0  0.3   8536  3772 pts/2    Ss   14:12   0:00 /bin/bash --init-file /home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi        1349  0.0  1.3  63076 12768 ?        Sl   14:12   0:07 /home/pi/.vscode-server/extensions/ms-vscode.cpptools-1.22.11-linux-armhf/bin/cpptools
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      1470  0.0  0.0      0     0 ?        I<   14:29   0:00 [kworker/3:2H]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      1637  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/0:1-events]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      2599  0.0  0.0      0     0 ?        I    16:52   0:00 [kworker/1:2-memcg_kmem_cache]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      2730  0.0  0.0      0     0 ?        I    18:36   0:00 [kworker/u8:0-brcmf_wq/mmc1:0001:1]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      2741  0.0  0.0      0     0 ?        I    18:48   0:00 [kworker/u8:1-brcmf_wq/mmc1:0001:1]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      2756  0.0  0.0      0     0 ?        I    18:59   0:00 [kworker/u8:2-events_unbound]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      2899  0.0  0.0      0     0 ?        I    18:59   0:00 [kworker/3:2-events]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      3785  0.0  0.0      0     0 ?        I    19:05   0:00 [kworker/1:0-cgroup_destroy]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      3828  0.0  0.0      0     0 ?        I    19:05   0:00 [kworker/3:1-events]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      3841  0.0  0.0      0     0 ?        I    19:05   0:00 [kworker/2:0-mm_percpu_wq]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: pi        4300  0.0  0.0   6456   324 ?        S    19:09   0:00 sleep 180
+Nov 15 19:11:45 raspberrypi systemd[1]: Started Run terminalInfo at boot.
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      4350  0.0  0.0      0     0 ?        I<   19:09   0:00 [kworker/2:1H]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      4600  0.0  0.0      0     0 ?        I    19:10   0:00 [kworker/2:2-memcg_kmem_cache]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      4650  0.0  0.0      0     0 ?        I    19:10   0:00 [kworker/1:1-cgroup_destroy]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      4651  0.0  0.0      0     0 ?        I    19:10   0:00 [kworker/3:0-events]
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      4812  0.0  0.3   9952  3192 pts/2    S+   19:11   0:00 sudo systemctl start terminalInfo.service
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      4817  0.0  0.1   9996  1076 pts/2    S+   19:11   0:00 systemctl start terminalInfo.service
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      4818  0.0  0.2  12700  2656 pts/2    S+   19:11   0:00 /bin/systemd-tty-ask-password-agent --watch
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      4819  0.0  0.2   7808  2580 ?        Ss   19:11   0:00 /bin/bash /home/pi/PBX/Module3/terminalInfo.sh
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: root      4820  0.0  0.2   9788  2500 ?        R    19:11   0:00 ps aux
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: Current Date and Time:
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: Fri 15 Nov 2024 07:11:45 PM MST
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: Kernel Version:
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: 4.19.75-v7+
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: Kernel Dump (dmesg output):
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [    9.694467] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [    9.694740] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   10.576933] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.422174] Bluetooth: Core ver 2.22
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.422240] NET: Registered protocol family 31
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.422243] Bluetooth: HCI device and connection manager initialized
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.422259] Bluetooth: HCI socket layer initialized
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.422266] Bluetooth: L2CAP socket layer initialized
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.422290] Bluetooth: SCO socket layer initialized
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.446289] Bluetooth: HCI UART driver ver 2.3
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.446301] Bluetooth: HCI UART protocol H4 registered
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.446347] Bluetooth: HCI UART protocol Three-wire (H5) registered
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.446472] Bluetooth: HCI UART protocol Broadcom registered
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.796812] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.796820] Bluetooth: BNEP filters: protocol multicast
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.796839] Bluetooth: BNEP socket layer initialized
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.862989] Bluetooth: RFCOMM TTY layer initialized
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.863015] Bluetooth: RFCOMM socket layer initialized
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.863037] Bluetooth: RFCOMM ver 1.11
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: [   13.952878] fuse init (API version 7.27)
+Nov 15 19:11:45 raspberrypi terminalInfo.sh[4819]: ---- End of System Information ----
+Nov 15 19:17:01 raspberrypi CRON[5306]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 15 19:18:17 raspberrypi systemd[1]: Started Session c6 of user pi.
+Nov 15 19:20:52 raspberrypi systemd[1]: Stopping Session c2 of user pi.
+Nov 15 19:20:52 raspberrypi systemd[1]: Stopping Session c6 of user pi.
+Nov 15 19:20:52 raspberrypi systemd[1]: Stopping Session c1 of user pi.
+Nov 15 19:20:52 raspberrypi systemd[1]: Stopped target Graphical Interface.
+Nov 15 19:20:52 raspberrypi systemd[1]: Stopped target Multi-User System.
+Nov 15 19:20:52 raspberrypi systemd[1]: Stopping triggerhappy global hotkey daemon...
+Nov 15 19:20:52 raspberrypi systemd[1]: gldriver-test.service: Succeeded.
+Nov 15 19:20:52 raspberrypi systemd[1]: Stopped Check for v3d driver.
+Nov 15 19:20:52 raspberrypi systemd[1]: Condition check resulted in Turns off Raspberry Pi display backlight on shutdown/reboot being skipped.
+Nov 15 19:20:52 raspberrypi systemd[1]: Stopping LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Nov 15 19:20:52 raspberrypi lightdm[424]: Error opening audit socket: Protocol not supported
+Nov 15 19:20:52 raspberrypi systemd[1]: Unmounting RPC Pipe File System...
+Nov 15 19:20:52 raspberrypi systemd[1]: Stopped target Bluetooth.
+Nov 15 19:20:52 raspberrypi systemd[1]: Stopping Disk Manager...
+Nov 15 19:20:52 raspberrypi systemd[1]: Stopping rng-tools.service...
+Nov 15 19:20:52 raspberrypi systemd[1]: Stopping Authorization Manager...
+Nov 15 19:20:52 raspberrypi systemd[1]: Stopping OpenBSD Secure Shell server...
+Nov 15 19:20:52 raspberrypi systemd[1]: terminalInfo.service: Succeeded.
+Nov 15 19:20:52 raspberrypi rngd[349]: stats: bits received from HRNG source: 220064
+Nov 15 19:20:52 raspberrypi systemd[1]: Stopped Run terminalInfo at boot.
+Nov 15 19:20:52 raspberrypi rngd[349]: stats: bits sent to kernel pool: 162048
+Nov 15 19:20:52 raspberrypi systemd[1]: session-c3.scope: Killing process 1034 (sh) with signal SIGTERM.
+Nov 15 19:20:52 raspberrypi rngd[349]: stats: entropy added to kernel pool: 162048
+Nov 15 19:20:52 raspberrypi systemd[1]: session-c3.scope: Killing process 1038 (node) with signal SIGTERM.
+Nov 15 19:20:59 raspberrypi systemd-modules-load[102]: Inserted module 'i2c_dev'
+Nov 15 19:20:59 raspberrypi fake-hwclock[98]: Sat 16 Nov 2024 02:20:55 AM UTC
+Nov 15 19:20:59 raspberrypi systemd-fsck[119]: e2fsck 1.44.5 (15-Dec-2018)
+Nov 15 19:20:59 raspberrypi systemd-fsck[119]: root: clean, 176678/1774192 files, 1822438/7090304 blocks
+Nov 15 19:20:59 raspberrypi systemd[1]: Started File System Check on Root Device.
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Remount Root and Kernel File Systems...
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Remount Root and Kernel File Systems.
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Flush Journal to Persistent Storage...
+Nov 15 19:20:59 raspberrypi systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Load/Save Random Seed...
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Create System Users...
+Nov 15 19:20:59 raspberrypi systemd[1]: Started udev Coldplug all Devices.
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Load/Save Random Seed.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Helper to synchronize boot up for ifupdown.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Create System Users.
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Create Static Device Nodes in /dev...
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Flush Journal to Persistent Storage.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Create Static Device Nodes in /dev.
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting udev Kernel Device Manager...
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Set the console keyboard layout.
+Nov 15 19:20:59 raspberrypi systemd[1]: Reached target Local File Systems (Pre).
+Nov 15 19:20:59 raspberrypi systemd[1]: Started udev Kernel Device Manager.
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Show Plymouth Boot Screen...
+Nov 15 19:20:59 raspberrypi systemd[1]: Received SIGRTMIN+20 from PID 151 (plymouthd).
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Show Plymouth Boot Screen.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Nov 15 19:20:59 raspberrypi systemd[1]: Condition check resulted in Dispatch Password Requests to Console Directory Watch being skipped.
+Nov 15 19:20:59 raspberrypi systemd[1]: Reached target Paths.
+Nov 15 19:20:59 raspberrypi systemd[1]: Reached target Local Encrypted Volumes.
+Nov 15 19:20:59 raspberrypi systemd[1]: Found device /dev/serial1.
+Nov 15 19:20:59 raspberrypi mtp-probe: checking bus 1, device 4: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2"
+Nov 15 19:20:59 raspberrypi mtp-probe: checking bus 1, device 5: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3"
+Nov 15 19:20:59 raspberrypi mtp-probe: bus: 1, device: 5 was not an MTP device
+Nov 15 19:20:59 raspberrypi mtp-probe: checking bus 1, device 3: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1"
+Nov 15 19:20:59 raspberrypi mtp-probe: bus: 1, device: 4 was not an MTP device
+Nov 15 19:20:59 raspberrypi mtp-probe: bus: 1, device: 3 was not an MTP device
+Nov 15 19:20:59 raspberrypi systemd[1]: Found device /dev/mmcblk0p6.
+Nov 15 19:20:59 raspberrypi systemd-udevd[141]: Using default interface naming scheme 'v240'.
+Nov 15 19:20:59 raspberrypi systemd-udevd[140]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Nov 15 19:20:59 raspberrypi systemd-udevd[140]: Using default interface naming scheme 'v240'.
+Nov 15 19:20:59 raspberrypi systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Nov 15 19:20:59 raspberrypi systemd[1]: Condition check resulted in Dispatch Password Requests to Console Directory Watch being skipped.
+Nov 15 19:20:59 raspberrypi systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Nov 15 19:20:59 raspberrypi systemd[1]: Condition check resulted in Huge Pages File System being skipped.
+Nov 15 19:20:59 raspberrypi systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+Nov 15 19:20:59 raspberrypi systemd[1]: Condition check resulted in FUSE Control File System being skipped.
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting File System Check on /dev/mmcblk0p6...
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Load/Save RF Kill Switch Status...
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] Linux version 4.19.75-v7+ (dom@buildbot) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611)) #1270 SMP Tue Sep 24 18:45:11 BST 2019
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Load/Save RF Kill Switch Status.
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] CPU: div instructions available: patching division code
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Nov 15 19:20:59 raspberrypi systemd-udevd[149]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] OF: fdt: Machine model: Raspberry Pi 3 Model B Rev 1.2
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] Memory policy: Data cache writealloc
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] cma: Reserved 8 MiB at 0x3ac00000
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Nov 15 19:20:59 raspberrypi systemd-fsck[235]: fsck.fat 4.1 (2017-01-24)
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] random: get_random_bytes called from start_kernel+0xac/0x4b4 with crng_init=0
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] percpu: Embedded 17 pages/cpu s39488 r8192 d21952 u69632
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] pcpu-alloc: s39488 r8192 d21952 u69632 alloc=17*4096
+Nov 15 19:20:59 raspberrypi systemd-fsck[235]: /dev/mmcblk0p6: 224 files, 106065/516188 clusters
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 240555
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=720 bcm2708_fb.fbheight=480 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  console=ttyS0,115200 console=tty1 root=/dev/mmcblk0p7 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet splash plymouth.ignore-serial-consoles
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Nov 15 19:20:59 raspberrypi systemd[1]: Started File System Check on /dev/mmcblk0p6.
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] Memory: 939088K/970752K available (8192K kernel code, 629K rwdata, 2176K rodata, 1024K init, 821K bss, 23472K reserved, 8192K cma-reserved)
+Nov 15 19:20:59 raspberrypi systemd[1]: Mounting /boot...
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] Virtual kernel memory layout:
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000]     vmalloc : 0xbb800000 - 0xff800000   (1088 MB)
+Nov 15 19:20:59 raspberrypi systemd[1]: Mounted /boot.
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000]     lowmem  : 0x80000000 - 0xbb400000   ( 948 MB)
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000]     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000]       .text : 0x(ptrval) - 0x(ptrval)   (9184 kB)
+Nov 15 19:20:59 raspberrypi systemd[1]: Reached target Local File Systems.
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000]       .init : 0x(ptrval) - 0x(ptrval)   (1024 kB)
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000]       .data : 0x(ptrval) - 0x(ptrval)   ( 630 kB)
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000]        .bss : 0x(ptrval) - 0x(ptrval)   ( 822 kB)
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Nov 15 19:20:59 raspberrypi systemd[1]: Condition check resulted in Load AppArmor profiles being skipped.
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] ftrace: allocating 26399 entries in 78 pages
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] rcu: Hierarchical RCU implementation.
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] arch_timer: cp15 timer(s) running at 19.20MHz (phys).
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Raise network interfaces...
+Nov 15 19:20:59 raspberrypi kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Nov 15 19:20:59 raspberrypi kernel: [    0.000007] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Nov 15 19:20:59 raspberrypi kernel: [    0.000019] Switching to timer-based delay loop, resolution 52ns
+Nov 15 19:20:59 raspberrypi kernel: [    0.000283] Console: colour dummy device 80x30
+Nov 15 19:20:59 raspberrypi kernel: [    0.000302] console [tty1] enabled
+Nov 15 19:20:59 raspberrypi kernel: [    0.000347] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+Nov 15 19:20:59 raspberrypi kernel: [    0.000364] pid_max: default: 32768 minimum: 301
+Nov 15 19:20:59 raspberrypi kernel: [    0.000707] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Create Volatile Files and Directories...
+Nov 15 19:20:59 raspberrypi kernel: [    0.000722] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Nov 15 19:20:59 raspberrypi kernel: [    0.001638] CPU: Testing write buffer coherency: ok
+Nov 15 19:20:59 raspberrypi kernel: [    0.002101] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Nov 15 19:20:59 raspberrypi systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Nov 15 19:20:59 raspberrypi kernel: [    0.002751] Setting up static identity map for 0x100000 - 0x10003c
+Nov 15 19:20:59 raspberrypi kernel: [    0.002901] rcu: Hierarchical SRCU implementation.
+Nov 15 19:20:59 raspberrypi kernel: [    0.003694] smp: Bringing up secondary CPUs ...
+Nov 15 19:20:59 raspberrypi kernel: [    0.004527] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+Nov 15 19:20:59 raspberrypi kernel: [    0.005448] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+Nov 15 19:20:59 raspberrypi kernel: [    0.006310] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+Nov 15 19:20:59 raspberrypi kernel: [    0.006435] smp: Brought up 1 node, 4 CPUs
+Nov 15 19:20:59 raspberrypi kernel: [    0.006447] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+Nov 15 19:20:59 raspberrypi kernel: [    0.006453] CPU: All CPU(s) started in HYP mode.
+Nov 15 19:20:59 raspberrypi kernel: [    0.006458] CPU: Virtualization extensions available.
+Nov 15 19:20:59 raspberrypi kernel: [    0.007433] devtmpfs: initialized
+Nov 15 19:20:59 raspberrypi kernel: [    0.020614] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+Nov 15 19:20:59 raspberrypi kernel: [    0.020850] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Nov 15 19:20:59 raspberrypi kernel: [    0.020868] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Nov 15 19:20:59 raspberrypi kernel: [    0.021466] pinctrl core: initialized pinctrl subsystem
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Set console font and keymap...
+Nov 15 19:20:59 raspberrypi kernel: [    0.022328] NET: Registered protocol family 16
+Nov 15 19:20:59 raspberrypi kernel: [    0.025346] DMA: preallocated 1024 KiB pool for atomic coherent allocations
+Nov 15 19:20:59 raspberrypi kernel: [    0.031059] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Nov 15 19:20:59 raspberrypi kernel: [    0.031068] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Nov 15 19:20:59 raspberrypi kernel: [    0.031276] Serial: AMBA PL011 UART driver
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Preprocess NFS configuration...
+Nov 15 19:20:59 raspberrypi kernel: [    0.033561] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Nov 15 19:20:59 raspberrypi kernel: [    0.068494] bcm2835-dma 3f007000.dma: DMA legacy API manager at (ptrval), dmachans=0x1
+Nov 15 19:20:59 raspberrypi kernel: [    0.070181] SCSI subsystem initialized
+Nov 15 19:20:59 raspberrypi kernel: [    0.070395] usbcore: registered new interface driver usbfs
+Nov 15 19:20:59 raspberrypi kernel: [    0.070456] usbcore: registered new interface driver hub
+Nov 15 19:20:59 raspberrypi kernel: [    0.070549] usbcore: registered new device driver usb
+Nov 15 19:20:59 raspberrypi kernel: [    0.090127] raspberrypi-firmware soc:firmware: Attached to firmware from 2019-09-24 17:37, variant start
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Set console font and keymap.
+Nov 15 19:20:59 raspberrypi kernel: [    0.100371] raspberrypi-firmware soc:firmware: Firmware hash is 6820edeee4ef3891b95fc01cf02a7abd7ca52f17
+Nov 15 19:20:59 raspberrypi kernel: [    0.111791] clocksource: Switched to clocksource arch_sys_counter
+Nov 15 19:20:59 raspberrypi kernel: [    0.201318] VFS: Disk quotas dquot_6.6.0
+Nov 15 19:20:59 raspberrypi systemd[1]: nfs-config.service: Succeeded.
+Nov 15 19:20:59 raspberrypi kernel: [    0.201400] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Nov 15 19:20:59 raspberrypi kernel: [    0.201555] FS-Cache: Loaded
+Nov 15 19:20:59 raspberrypi kernel: [    0.201767] CacheFiles: Loaded
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Preprocess NFS configuration.
+Nov 15 19:20:59 raspberrypi kernel: [    0.211724] NET: Registered protocol family 2
+Nov 15 19:20:59 raspberrypi kernel: [    0.212526] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 6144 bytes)
+Nov 15 19:20:59 raspberrypi kernel: [    0.212563] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+Nov 15 19:20:59 raspberrypi kernel: [    0.212673] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Nov 15 19:20:59 raspberrypi kernel: [    0.212859] TCP: Hash tables configured (established 8192 bind 8192)
+Nov 15 19:20:59 raspberrypi kernel: [    0.212993] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Nov 15 19:20:59 raspberrypi systemd[1]: Condition check resulted in RPC security service for NFS client and server being skipped.
+Nov 15 19:20:59 raspberrypi kernel: [    0.213040] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Nov 15 19:20:59 raspberrypi kernel: [    0.213350] NET: Registered protocol family 1
+Nov 15 19:20:59 raspberrypi kernel: [    0.213910] RPC: Registered named UNIX socket transport module.
+Nov 15 19:20:59 raspberrypi kernel: [    0.213916] RPC: Registered udp transport module.
+Nov 15 19:20:59 raspberrypi kernel: [    0.213922] RPC: Registered tcp transport module.
+Nov 15 19:20:59 raspberrypi systemd[1]: Condition check resulted in RPC security service for NFS server being skipped.
+Nov 15 19:20:59 raspberrypi kernel: [    0.213928] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Nov 15 19:20:59 raspberrypi kernel: [    0.215692] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+Nov 15 19:20:59 raspberrypi kernel: [    0.218691] Initialise system trusted keyrings
+Nov 15 19:20:59 raspberrypi systemd[1]: Reached target NFS client services.
+Nov 15 19:20:59 raspberrypi kernel: [    0.218875] workingset: timestamp_bits=14 max_order=18 bucket_order=4
+Nov 15 19:20:59 raspberrypi kernel: [    0.228661] FS-Cache: Netfs 'nfs' registered for caching
+Nov 15 19:20:59 raspberrypi kernel: [    0.229242] NFS: Registering the id_resolver key type
+Nov 15 19:20:59 raspberrypi systemd[1]: Reached target Remote File Systems (Pre).
+Nov 15 19:20:59 raspberrypi systemd[1]: Reached target Remote File Systems.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Create Volatile Files and Directories.
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Network Time Synchronization...
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Nov 15 19:20:59 raspberrypi systemd-udevd[148]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Raise network interfaces.
+Nov 15 19:20:59 raspberrypi systemd[1]: Received SIGRTMIN+20 from PID 151 (plymouthd).
+Nov 15 19:20:59 raspberrypi systemd[1]: plymouth-read-write.service: Succeeded.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Network Time Synchronization.
+Nov 15 19:20:59 raspberrypi systemd[1]: Reached target System Time Synchronized.
+Nov 15 19:20:59 raspberrypi systemd[1]: Reached target System Initialization.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Daily rotation of log files.
+Nov 15 19:20:59 raspberrypi systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Daily man-db regeneration.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Daily Cleanup of Temporary Directories.
+Nov 15 19:20:59 raspberrypi systemd[1]: Listening on D-Bus System Message Bus Socket.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Daily apt download activities.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Daily apt upgrade and clean activities.
+Nov 15 19:20:59 raspberrypi systemd[1]: Reached target Timers.
+Nov 15 19:20:59 raspberrypi systemd[1]: Listening on triggerhappy.socket.
+Nov 15 19:20:59 raspberrypi systemd[1]: Reached target Sockets.
+Nov 15 19:20:59 raspberrypi systemd[1]: Reached target Basic System.
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Configure Bluetooth Modems connected by UART...
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting dphys-swapfile - set up, mount/unmount, and delete a swap file...
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Check for v3d driver...
+Nov 15 19:20:59 raspberrypi systemd[1]: Started D-Bus System Message Bus.
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting rng-tools.service...
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting WPA supplicant...
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Manage Sound Card State (restore and store).
+Nov 15 19:20:59 raspberrypi alsactl[329]: alsactl 1.1.8 daemon started
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Save/Restore Sound Card State...
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Regular background program processing daemon.
+Nov 15 19:20:59 raspberrypi systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Nov 15 19:20:59 raspberrypi systemd[1]: Condition check resulted in Copy user wpa_supplicant.conf being skipped.
+Nov 15 19:20:59 raspberrypi rngd[343]: rngd 2-unofficial-mt.14 starting up...
+Nov 15 19:20:59 raspberrypi rng-tools[323]: Starting Hardware RNG entropy gatherer daemon: rngd.
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting dhcpcd on all interfaces...
+Nov 15 19:20:59 raspberrypi systemd[1]: Condition check resulted in Turn on SSH if /boot/ssh is present being skipped.
+Nov 15 19:20:59 raspberrypi cron[339]: (CRON) INFO (pidfile fd = 3)
+Nov 15 19:20:59 raspberrypi rngd[343]: entropy feed to the kernel ready
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Disk Manager...
+Nov 15 19:20:59 raspberrypi cron[339]: (CRON) INFO (Running @reboot jobs)
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Login Service...
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting System Logging Service...
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Check for Raspberry Pi EEPROM updates...
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Nov 15 19:20:59 raspberrypi systemd[1]: Starting triggerhappy global hotkey daemon...
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Check for v3d driver.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started rng-tools.service.
+Nov 15 19:20:59 raspberrypi kernel: [    0.229267] Key type id_resolver registered
+Nov 15 19:20:59 raspberrypi kernel: [    0.229273] Key type id_legacy registered
+Nov 15 19:20:59 raspberrypi kernel: [    0.229290] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Nov 15 19:20:59 raspberrypi kernel: [    0.231551] Key type asymmetric registered
+Nov 15 19:20:59 raspberrypi kernel: [    0.231560] Asymmetric key parser 'x509' registered
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Save/Restore Sound Card State.
+Nov 15 19:20:59 raspberrypi kernel: [    0.231608] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+Nov 15 19:20:59 raspberrypi kernel: [    0.231765] io scheduler noop registered
+Nov 15 19:20:59 raspberrypi kernel: [    0.231772] io scheduler deadline registered (default)
+Nov 15 19:20:59 raspberrypi kernel: [    0.232024] io scheduler cfq registered
+Nov 15 19:20:59 raspberrypi kernel: [    0.232032] io scheduler mq-deadline registered (default)
+Nov 15 19:20:59 raspberrypi systemd[1]: Reached target Sound Card.
+Nov 15 19:20:59 raspberrypi kernel: [    0.232039] io scheduler kyber registered
+Nov 15 19:20:59 raspberrypi kernel: [    0.235142] bcm2708_fb soc:fb: FB found 1 display(s)
+Nov 15 19:20:59 raspberrypi kernel: [    0.246026] Console: switching to colour frame buffer device 90x30
+Nov 15 19:20:59 raspberrypi kernel: [    0.251557] bcm2708_fb soc:fb: Registered framebuffer for display 0, size 720x480
+Nov 15 19:20:59 raspberrypi kernel: [    0.253667] bcm2835-rng 3f104000.rng: hwrng registered
+Nov 15 19:20:59 raspberrypi dhcpcd[347]: dev: loaded udev
+Nov 15 19:20:59 raspberrypi thd[367]: Found socket passed from systemd
+Nov 15 19:20:59 raspberrypi dphys-swapfile[306]: want /var/swap=100MByte, checking existing: keeping it
+Nov 15 19:20:59 raspberrypi avahi-daemon[364]: Found user 'avahi' (UID 108) and group 'avahi' (GID 113).
+Nov 15 19:20:59 raspberrypi avahi-daemon[364]: Successfully dropped root privileges.
+Nov 15 19:20:59 raspberrypi avahi-daemon[364]: avahi-daemon 0.7 starting up.
+Nov 15 19:20:59 raspberrypi dhcpcd[347]: forked to background, child pid 382
+Nov 15 19:20:59 raspberrypi rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.1901.0]
+Nov 15 19:20:59 raspberrypi rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="361" x-info="https://www.rsyslog.com"] start
+Nov 15 19:20:59 raspberrypi kernel: [    0.253982] vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+Nov 15 19:20:59 raspberrypi kernel: [    0.254487] vc-sm: Videocore shared memory driver
+Nov 15 19:20:59 raspberrypi kernel: [    0.254806] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Nov 15 19:20:59 raspberrypi kernel: [    0.265507] brd: module loaded
+Nov 15 19:20:59 raspberrypi kernel: [    0.275657] loop: module loaded
+Nov 15 19:20:59 raspberrypi kernel: [    0.276246] Loading iSCSI transport class v2.0-870.
+Nov 15 19:20:59 raspberrypi kernel: [    0.276914] libphy: Fixed MDIO Bus: probed
+Nov 15 19:20:59 raspberrypi kernel: [    0.277013] usbcore: registered new interface driver lan78xx
+Nov 15 19:20:59 raspberrypi kernel: [    0.277069] usbcore: registered new interface driver smsc95xx
+Nov 15 19:20:59 raspberrypi kernel: [    0.277084] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Nov 15 19:20:59 raspberrypi kernel: [    0.304924] dwc_otg 3f980000.usb: base=(ptrval)
+Nov 15 19:20:59 raspberrypi kernel: [    0.505174] Core Release: 2.80a
+Nov 15 19:20:59 raspberrypi kernel: [    0.505183] Setting default values for core params
+Nov 15 19:20:59 raspberrypi kernel: [    0.505213] Finished setting default values for core params
+Nov 15 19:20:59 raspberrypi kernel: [    0.705503] Using Buffer DMA mode
+Nov 15 19:20:59 raspberrypi kernel: [    0.705510] Periodic Transfer Interrupt Enhancement - disabled
+Nov 15 19:20:59 raspberrypi kernel: [    0.705515] Multiprocessor Interrupt Enhancement - disabled
+Nov 15 19:20:59 raspberrypi kernel: [    0.705522] OTG VER PARAM: 0, OTG VER FLAG: 0
+Nov 15 19:20:59 raspberrypi kernel: [    0.705539] Dedicated Tx FIFOs mode
+Nov 15 19:20:59 raspberrypi kernel: [    0.705984] WARN::dwc_otg_hcd_init:1045: FIQ DMA bounce buffers: virt = bad04000 dma = 0xfad04000 len=9024
+Nov 15 19:20:59 raspberrypi kernel: [    0.706010] FIQ FSM acceleration enabled for :
+Nov 15 19:20:59 raspberrypi kernel: [    0.706010] Non-periodic Split Transactions
+Nov 15 19:20:59 raspberrypi kernel: [    0.706010] Periodic Split Transactions
+Nov 15 19:20:59 raspberrypi kernel: [    0.706010] High-Speed Isochronous Endpoints
+Nov 15 19:20:59 raspberrypi kernel: [    0.706010] Interrupt/Control Split Transaction hack enabled
+Nov 15 19:20:59 raspberrypi kernel: [    0.706017] dwc_otg: Microframe scheduler enabled
+Nov 15 19:20:59 raspberrypi kernel: [    0.706075] WARN::hcd_init_fiq:457: FIQ on core 1
+Nov 15 19:20:59 raspberrypi kernel: [    0.706087] WARN::hcd_init_fiq:458: FIQ ASM at 80655664 length 36
+Nov 15 19:20:59 raspberrypi kernel: [    0.706099] WARN::hcd_init_fiq:497: MPHI regs_base at bb810000
+Nov 15 19:20:59 raspberrypi kernel: [    0.706116] dwc_otg 3f980000.usb: DWC OTG Controller
+Nov 15 19:20:59 raspberrypi kernel: [    0.706151] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Nov 15 19:20:59 raspberrypi kernel: [    0.706185] dwc_otg 3f980000.usb: irq 56, io mem 0x00000000
+Nov 15 19:20:59 raspberrypi kernel: [    0.706233] Init: Port Power? op_state=1
+Nov 15 19:20:59 raspberrypi kernel: [    0.706239] Init: Power Port (0)
+Nov 15 19:20:59 raspberrypi kernel: [    0.706491] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 4.19
+Nov 15 19:20:59 raspberrypi kernel: [    0.706503] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 15 19:20:59 raspberrypi kernel: [    0.706513] usb usb1: Product: DWC OTG Controller
+Nov 15 19:20:59 raspberrypi kernel: [    0.706522] usb usb1: Manufacturer: Linux 4.19.75-v7+ dwc_otg_hcd
+Nov 15 19:20:59 raspberrypi kernel: [    0.706531] usb usb1: SerialNumber: 3f980000.usb
+Nov 15 19:20:59 raspberrypi kernel: [    0.707140] hub 1-0:1.0: USB hub found
+Nov 15 19:20:59 raspberrypi kernel: [    0.707184] hub 1-0:1.0: 1 port detected
+Nov 15 19:20:59 raspberrypi kernel: [    0.707763] dwc_otg: FIQ enabled
+Nov 15 19:20:59 raspberrypi kernel: [    0.707769] dwc_otg: NAK holdoff enabled
+Nov 15 19:20:59 raspberrypi kernel: [    0.707774] dwc_otg: FIQ split-transaction FSM enabled
+Nov 15 19:20:59 raspberrypi kernel: [    0.707785] Module dwc_common_port init
+Nov 15 19:20:59 raspberrypi kernel: [    0.708050] usbcore: registered new interface driver usb-storage
+Nov 15 19:20:59 raspberrypi kernel: [    0.708235] mousedev: PS/2 mouse device common for all mice
+Nov 15 19:20:59 raspberrypi kernel: [    0.709076] bcm2835-wdt bcm2835-wdt: Broadcom BCM2835 watchdog timer
+Nov 15 19:20:59 raspberrypi kernel: [    0.709311] bcm2835-cpufreq: min=600000 max=1200000
+Nov 15 19:20:59 raspberrypi kernel: [    0.709767] sdhci: Secure Digital Host Controller Interface driver
+Nov 15 19:20:59 raspberrypi kernel: [    0.709773] sdhci: Copyright(c) Pierre Ossman
+Nov 15 19:20:59 raspberrypi kernel: [    0.710139] mmc-bcm2835 3f300000.mmcnr: could not get clk, deferring probe
+Nov 15 19:20:59 raspberrypi kernel: [    0.710518] sdhost-bcm2835 3f202000.mmc: could not get clk, deferring probe
+Nov 15 19:20:59 raspberrypi kernel: [    0.710643] sdhci-pltfm: SDHCI platform and OF driver helper
+Nov 15 19:20:59 raspberrypi kernel: [    0.712169] ledtrig-cpu: registered to indicate activity on CPUs
+Nov 15 19:20:59 raspberrypi kernel: [    0.712358] hidraw: raw HID events driver (C) Jiri Kosina
+Nov 15 19:20:59 raspberrypi kernel: [    0.712525] usbcore: registered new interface driver usbhid
+Nov 15 19:20:59 raspberrypi kernel: [    0.712530] usbhid: USB HID core driver
+Nov 15 19:20:59 raspberrypi kernel: [    0.713469] vchiq: vchiq_init_state: slot_zero = (ptrval), is_master = 0
+Nov 15 19:20:59 raspberrypi kernel: [    0.714974] [vc_sm_connected_init]: start
+Nov 15 19:20:59 raspberrypi kernel: [    0.723680] [vc_sm_connected_init]: end - returning 0
+Nov 15 19:20:59 raspberrypi kernel: [    0.724774] Initializing XFRM netlink socket
+Nov 15 19:20:59 raspberrypi kernel: [    0.724815] NET: Registered protocol family 17
+Nov 15 19:20:59 raspberrypi kernel: [    0.724923] Key type dns_resolver registered
+Nov 15 19:20:59 raspberrypi kernel: [    0.725470] Registering SWP/SWPB emulation handler
+Nov 15 19:20:59 raspberrypi kernel: [    0.726114] registered taskstats version 1
+Nov 15 19:20:59 raspberrypi kernel: [    0.726130] Loading compiled-in X.509 certificates
+Nov 15 19:20:59 raspberrypi kernel: [    0.733440] uart-pl011 3f201000.serial: cts_event_workaround enabled
+Nov 15 19:20:59 raspberrypi kernel: [    0.733522] 3f201000.serial: ttyAMA0 at MMIO 0x3f201000 (irq = 81, base_baud = 0) is a PL011 rev2
+Nov 15 19:20:59 raspberrypi kernel: [    0.735349] mmc-bcm2835 3f300000.mmcnr: mmc_debug:0 mmc_debug2:0
+Nov 15 19:20:59 raspberrypi kernel: [    0.735360] mmc-bcm2835 3f300000.mmcnr: DMA channel allocated
+Nov 15 19:20:59 raspberrypi kernel: [    0.761574] sdhost: log_buf @ (ptrval) (fad07000)
+Nov 15 19:20:59 raspberrypi kernel: [    0.800965] mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+Nov 15 19:20:59 raspberrypi kernel: [    0.802534] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Nov 15 19:20:59 raspberrypi kernel: [    0.804095] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Nov 15 19:20:59 raspberrypi kernel: [    0.806898] mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+Nov 15 19:20:59 raspberrypi kernel: [    0.809505] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Nov 15 19:20:59 raspberrypi kernel: [    0.810814] of_cfs_init
+Nov 15 19:20:59 raspberrypi kernel: [    0.810969] of_cfs_init: OK
+Nov 15 19:20:59 raspberrypi kernel: [    0.811646] Waiting for root device /dev/mmcblk0p7...
+Nov 15 19:20:59 raspberrypi kernel: [    0.878328] random: fast init done
+Nov 15 19:20:59 raspberrypi kernel: [    0.896074] mmc0: host does not support reading read-only switch, assuming write-enable
+Nov 15 19:20:59 raspberrypi kernel: [    0.899835] mmc0: new high speed SDHC card at address aaaa
+Nov 15 19:20:59 raspberrypi kernel: [    0.901053] mmcblk0: mmc0:aaaa SD32G 29.7 GiB
+Nov 15 19:20:59 raspberrypi kernel: [    0.905572]  mmcblk0: p1 p2 < p5 p6 p7 >
+Nov 15 19:20:59 raspberrypi kernel: [    0.922651] mmc1: new high speed SDIO card at address 0001
+Nov 15 19:20:59 raspberrypi kernel: [    0.931930] Indeed it is in host mode hprt0 = 00021501
+Nov 15 19:20:59 raspberrypi kernel: [    0.939844] EXT4-fs (mmcblk0p7): mounted filesystem with ordered data mode. Opts: (null)
+Nov 15 19:20:59 raspberrypi kernel: [    0.939897] VFS: Mounted root (ext4 filesystem) readonly on device 179:7.
+Nov 15 19:20:59 raspberrypi kernel: [    0.948256] devtmpfs: mounted
+Nov 15 19:20:59 raspberrypi kernel: [    0.993861] Freeing unused kernel memory: 1024K
+Nov 15 19:20:59 raspberrypi kernel: [    1.022218] Run /sbin/init as init process
+Nov 15 19:20:59 raspberrypi kernel: [    1.141857] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Nov 15 19:20:59 raspberrypi kernel: [    1.142012] Indeed it is in host mode hprt0 = 00001101
+Nov 15 19:20:59 raspberrypi kernel: [    1.382154] usb 1-1: New USB device found, idVendor=0424, idProduct=9514, bcdDevice= 2.00
+Nov 15 19:20:59 raspberrypi kernel: [    1.382170] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Nov 15 19:20:59 raspberrypi kernel: [    1.382820] hub 1-1:1.0: USB hub found
+Nov 15 19:20:59 raspberrypi kernel: [    1.382909] hub 1-1:1.0: 5 ports detected
+Nov 15 19:20:59 raspberrypi kernel: [    1.701849] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Nov 15 19:20:59 raspberrypi kernel: [    1.749313] NET: Registered protocol family 10
+Nov 15 19:20:59 raspberrypi kernel: [    1.750670] Segment Routing with IPv6
+Nov 15 19:20:59 raspberrypi kernel: [    1.832204] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00, bcdDevice= 2.00
+Nov 15 19:20:59 raspberrypi kernel: [    1.832217] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Nov 15 19:20:59 raspberrypi kernel: [    1.835117] smsc95xx v1.0.6
+Nov 15 19:20:59 raspberrypi kernel: [    1.927011] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:b8:27:c3
+Nov 15 19:20:59 raspberrypi kernel: [    2.021924] usb 1-1.2: new low-speed USB device number 4 using dwc_otg
+Nov 15 19:20:59 raspberrypi kernel: [    2.156880] usb 1-1.2: New USB device found, idVendor=093a, idProduct=2510, bcdDevice= 1.00
+Nov 15 19:20:59 raspberrypi kernel: [    2.156895] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Nov 15 19:20:59 raspberrypi kernel: [    2.156905] usb 1-1.2: Product: USB Optical Mouse
+Nov 15 19:20:59 raspberrypi kernel: [    2.156914] usb 1-1.2: Manufacturer: PixArt
+Nov 15 19:20:59 raspberrypi kernel: [    2.161910] input: PixArt USB Optical Mouse as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.0/0003:093A:2510.0001/input/input0
+Nov 15 19:20:59 raspberrypi kernel: [    2.162322] hid-generic 0003:093A:2510.0001: input,hidraw0: USB HID v1.11 Mouse [PixArt USB Optical Mouse] on usb-3f980000.usb-1.2/input0
+Nov 15 19:20:59 raspberrypi kernel: [    2.271835] usb 1-1.3: new full-speed USB device number 5 using dwc_otg
+Nov 15 19:20:59 raspberrypi kernel: [    2.418894] usb 1-1.3: New USB device found, idVendor=046d, idProduct=c52b, bcdDevice=24.11
+Nov 15 19:20:59 raspberrypi kernel: [    2.418910] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Nov 15 19:20:59 raspberrypi kernel: [    2.418920] usb 1-1.3: Product: USB Receiver
+Nov 15 19:20:59 raspberrypi kernel: [    2.418929] usb 1-1.3: Manufacturer: Logitech
+Nov 15 19:20:59 raspberrypi kernel: [    2.703289] random: systemd: uninitialized urandom read (16 bytes read)
+Nov 15 19:20:59 raspberrypi kernel: [    2.715195] random: systemd: uninitialized urandom read (16 bytes read)
+Nov 15 19:20:59 raspberrypi kernel: [    2.716516] random: systemd: uninitialized urandom read (16 bytes read)
+Nov 15 19:20:59 raspberrypi kernel: [    2.919373] i2c /dev entries driver
+Nov 15 19:20:59 raspberrypi kernel: [    3.237180] EXT4-fs (mmcblk0p7): re-mounted. Opts: (null)
+Nov 15 19:20:59 raspberrypi kernel: [    4.030011] vc_sm_cma: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 15 19:20:59 raspberrypi kernel: [    4.036084] bcm2835_vc_sm_cma_probe: Videocore shared memory driver
+Nov 15 19:20:59 raspberrypi kernel: [    4.036104] [vc_sm_connected_init]: start
+Nov 15 19:20:59 raspberrypi kernel: [    4.043391] [vc_sm_connected_init]: installed successfully
+Nov 15 19:20:59 raspberrypi kernel: [    4.046389] media: Linux media interface: v0.10
+Nov 15 19:20:59 raspberrypi kernel: [    4.087628] videodev: Linux video capture interface: v2.00
+Nov 15 19:20:59 raspberrypi kernel: [    4.133318] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 15 19:20:59 raspberrypi kernel: [    4.162416] bcm2835_v4l2: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 15 19:20:59 raspberrypi kernel: [    4.194818] bcm2835_codec: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 15 19:20:59 raspberrypi kernel: [    4.196527] snd_bcm2835: module is from the staging directory, the quality is unknown, you have been warned.
+Nov 15 19:20:59 raspberrypi kernel: [    4.207390] bcm2835-codec bcm2835-codec: Device registered as /dev/video10
+Nov 15 19:20:59 raspberrypi kernel: [    4.207438] bcm2835-codec bcm2835-codec: Loaded V4L2 decode
+Nov 15 19:20:59 raspberrypi kernel: [    4.211502] bcm2835_audio soc:audio: card created with 8 channels
+Nov 15 19:20:59 raspberrypi kernel: [    4.213796] bcm2835-codec bcm2835-codec: Device registered as /dev/video11
+Nov 15 19:20:59 raspberrypi kernel: [    4.213831] bcm2835-codec bcm2835-codec: Loaded V4L2 encode
+Nov 15 19:20:59 raspberrypi kernel: [    4.221728] bcm2835-codec bcm2835-codec: Device registered as /dev/video12
+Nov 15 19:20:59 raspberrypi kernel: [    4.221846] bcm2835-codec bcm2835-codec: Loaded V4L2 isp
+Nov 15 19:20:59 raspberrypi kernel: [    4.658826] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Nov 15 19:20:59 raspberrypi kernel: [    4.797959] logitech-djreceiver 0003:046D:C52B.0004: hiddev96,hidraw1: USB HID v1.11 Device [Logitech USB Receiver] on usb-3f980000.usb-1.3/input2
+Nov 15 19:20:59 raspberrypi kernel: [    4.798422] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Nov 15 19:20:59 raspberrypi kernel: [    4.906108] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Nov 15 19:20:59 raspberrypi kernel: [    4.922124] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43430-sdio for chip BCM43430/1
+Nov 15 19:20:59 raspberrypi kernel: [    4.922402] usbcore: registered new interface driver brcmfmac
+Nov 15 19:20:59 raspberrypi kernel: [    4.937586] input: Logitech Unifying Device. Wireless PID:400f Keyboard as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3/1-1.3:1.2/0003:046D:C52B.0004/0003:046D:400F.0005/input/input1
+Nov 15 19:20:59 raspberrypi kernel: [    4.938652] input: Logitech Unifying Device. Wireless PID:400f Consumer Control as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3/1-1.3:1.2/0003:046D:C52B.0004/0003:046D:400F.0005/input/input2
+Nov 15 19:20:59 raspberrypi kernel: [    4.938932] hid-generic 0003:046D:400F.0005: input,hidraw2: USB HID v1.11 Keyboard [Logitech Unifying Device. Wireless PID:400f] on usb-3f980000.usb-1.3:1
+Nov 15 19:20:59 raspberrypi kernel: [    5.132843] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43430-sdio for chip BCM43430/1
+Nov 15 19:20:59 raspberrypi kernel: [    5.132950] brcmfmac: brcmf_c_process_clm_blob: no clm_blob available (err=-2), device may have limited channels available
+Nov 15 19:20:59 raspberrypi kernel: [    5.133719] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM43430/1 wl0: Oct 23 2017 03:55:53 version 7.45.98.38 (r674442 CY) FWID 01-e58d219f
+Nov 15 19:20:59 raspberrypi kernel: [    5.747408] input: Logitech K750 as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3/1-1.3:1.2/0003:046D:C52B.0004/0003:046D:400F.0005/input/input6
+Nov 15 19:20:59 raspberrypi kernel: [    5.752497] logitech-hidpp-device 0003:046D:400F.0005: input,hidraw2: USB HID v1.11 Keyboard [Logitech K750] on usb-3f980000.usb-1.3:1
+Nov 15 19:20:59 raspberrypi kernel: [    6.518425] random: crng init done
+Nov 15 19:20:59 raspberrypi kernel: [    6.518438] random: 7 urandom warning(s) missed due to ratelimiting
+Nov 15 19:20:59 raspberrypi kernel: [    7.363243] uart-pl011 3f201000.serial: no DMA platform data
+Nov 15 19:20:59 raspberrypi kernel: [    7.753583] 8021q: 802.1Q VLAN Support v1.8
+Nov 15 19:20:59 raspberrypi udisksd[353]: udisks daemon version 2.8.1 starting
+Nov 15 19:20:59 raspberrypi systemd[1]: Started triggerhappy global hotkey daemon.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started System Logging Service.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started dhcpcd on all interfaces.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Check for Raspberry Pi EEPROM updates.
+Nov 15 19:20:59 raspberrypi wpa_supplicant[324]: Successfully initialized wpa_supplicant
+Nov 15 19:20:59 raspberrypi avahi-daemon[364]: Successfully called chroot().
+Nov 15 19:20:59 raspberrypi avahi-daemon[364]: Successfully dropped remaining capabilities.
+Nov 15 19:20:59 raspberrypi avahi-daemon[364]: No service file found in /etc/avahi/services.
+Nov 15 19:20:59 raspberrypi avahi-daemon[364]: Network interface enumeration completed.
+Nov 15 19:20:59 raspberrypi avahi-daemon[364]: Server startup complete. Host name is raspberrypi.local. Local service cookie is 624864755.
+Nov 15 19:20:59 raspberrypi systemd[1]: Started Login Service.
+Nov 15 19:21:00 raspberrypi systemd[1]: Started WPA supplicant.
+Nov 15 19:21:00 raspberrypi systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Nov 15 19:21:00 raspberrypi systemd[1]: Reached target Network.
+Nov 15 19:21:00 raspberrypi systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+Nov 15 19:21:00 raspberrypi systemd[1]: Starting /etc/rc.local Compatibility...
+Nov 15 19:21:00 raspberrypi systemd[1]: Starting OpenBSD Secure Shell server...
+Nov 15 19:21:00 raspberrypi systemd[1]: Starting Run terminalInfo at boot...
+Nov 15 19:21:00 raspberrypi systemd[1]: Starting Permit User Sessions...
+Nov 15 19:21:00 raspberrypi udisksd[353]: failed to load module crypto: libbd_crypto.so.2: cannot open shared object file: No such file or directory
+Nov 15 19:21:00 raspberrypi udisksd[353]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Nov 15 19:21:00 raspberrypi kernel: [    8.007390] Adding 102396k swap on /var/swap.  Priority:-2 extents:1 across:102396k SSFS
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: ---- System Information Script ----
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: Current User: root
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: Terminal: dumb
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: Shell: /bin/bash
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: Current Running Processes:
+Nov 15 19:21:00 raspberrypi systemd[1]: Started dphys-swapfile - set up, mount/unmount, and delete a swap file.
+Nov 15 19:21:00 raspberrypi systemd[1]: Started /etc/rc.local Compatibility.
+Nov 15 19:21:00 raspberrypi dhcpcd-run-hooks[417]: wlan0: starting wpa_supplicant
+Nov 15 19:21:00 raspberrypi systemd[1]: Started Permit User Sessions.
+Nov 15 19:21:00 raspberrypi systemd[1]: Starting Light Display Manager...
+Nov 15 19:21:00 raspberrypi udisksd[353]: Failed to load the 'mdraid' libblockdev plugin
+Nov 15 19:21:00 raspberrypi dbus-daemon[311]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.5' (uid=0 pid=353 comm="/usr/lib/udisks2/udisksd ")
+Nov 15 19:21:00 raspberrypi udisksd[353]: Failed to load the 'crypto' libblockdev plugin
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root         1 42.0  0.8  15156  7780 ?        Rs   19:20   0:03 /sbin/init splash
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root         2  0.0  0.0      0     0 ?        S    19:20   0:00 [kthreadd]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root         3  0.0  0.0      0     0 ?        I<   19:20   0:00 [rcu_gp]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root         4  0.0  0.0      0     0 ?        I<   19:20   0:00 [rcu_par_gp]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root         5  0.0  0.0      0     0 ?        I    19:20   0:00 [kworker/0:0-events]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root         6  0.0  0.0      0     0 ?        I<   19:20   0:00 [kworker/0:0H-mmc_complete]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root         7  0.2  0.0      0     0 ?        I    19:20   0:00 [kworker/u8:0-events_unbound]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root         8  0.0  0.0      0     0 ?        I<   19:20   0:00 [mm_percpu_wq]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root         9  0.8  0.0      0     0 ?        S    19:20   0:00 [ksoftirqd/0]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        10  0.1  0.0      0     0 ?        I    19:20   0:00 [rcu_sched]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        11  0.0  0.0      0     0 ?        I    19:20   0:00 [rcu_bh]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        12  0.5  0.0      0     0 ?        S    19:20   0:00 [migration/0]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        13  0.0  0.0      0     0 ?        S    19:20   0:00 [cpuhp/0]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        14  0.0  0.0      0     0 ?        S    19:20   0:00 [cpuhp/1]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        15  0.5  0.0      0     0 ?        S    19:20   0:00 [migration/1]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        16  0.2  0.0      0     0 ?        S    19:20   0:00 [ksoftirqd/1]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        17  0.0  0.0      0     0 ?        I    19:20   0:00 [kworker/1:0-events]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        18  0.0  0.0      0     0 ?        I<   19:20   0:00 [kworker/1:0H-kblockd]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        19  0.0  0.0      0     0 ?        S    19:20   0:00 [cpuhp/2]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        20  0.5  0.0      0     0 ?        S    19:20   0:00 [migration/2]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        21  0.2  0.0      0     0 ?        S    19:20   0:00 [ksoftirqd/2]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        22  0.0  0.0      0     0 ?        I    19:20   0:00 [kworker/2:0-mm_percpu_wq]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        23  0.0  0.0      0     0 ?        I<   19:20   0:00 [kworker/2:0H-kblockd]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        24  0.0  0.0      0     0 ?        S    19:20   0:00 [cpuhp/3]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        25  0.0  0.0      0     0 ?        S    19:20   0:00 [migration/3]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        26  0.0  0.0      0     0 ?        S    19:20   0:00 [ksoftirqd/3]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        27  0.0  0.0      0     0 ?        I    19:20   0:00 [kworker/3:0-mm_percpu_wq]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        28  0.0  0.0      0     0 ?        I<   19:20   0:00 [kworker/3:0H-kblockd]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        29  0.0  0.0      0     0 ?        S    19:20   0:00 [kdevtmpfs]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        30  0.0  0.0      0     0 ?        I<   19:20   0:00 [netns]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        31  0.7  0.0      0     0 ?        D    19:20   0:00 [kworker/0:1+events]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        32  0.0  0.0      0     0 ?        I    19:20   0:00 [kworker/1:1-events]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        33  0.2  0.0      0     0 ?        I    19:20   0:00 [kworker/2:1-rcu_gp]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        34  0.0  0.0      0     0 ?        S    19:20   0:00 [khungtaskd]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        35  0.0  0.0      0     0 ?        S    19:20   0:00 [oom_reaper]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        36  0.0  0.0      0     0 ?        I<   19:20   0:00 [writeback]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        37  0.0  0.0      0     0 ?        S    19:20   0:00 [kcompactd0]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        38  0.0  0.0      0     0 ?        I<   19:20   0:00 [crypto]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        39  0.0  0.0      0     0 ?        I<   19:20   0:00 [kblockd]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        40  0.0  0.0      0     0 ?        S    19:20   0:00 [watchdogd]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        41  0.0  0.0      0     0 ?        I<   19:20   0:00 [rpciod]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        42  0.0  0.0      0     0 ?        I<   19:20   0:00 [kworker/u9:0]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        43  0.0  0.0      0     0 ?        I<   19:20   0:00 [xprtiod]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        44  0.0  0.0      0     0 ?        I    19:20   0:00 [kworker/u8:1-events_unbound]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        46  0.0  0.0      0     0 ?        S    19:20   0:00 [kswapd0]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        47  0.0  0.0      0     0 ?        I<   19:20   0:00 [nfsiod]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        58  0.0  0.0      0     0 ?        I<   19:20   0:00 [kthrotld]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        59  2.1  0.0      0     0 ?        I    19:20   0:00 [kworker/3:1-memcg_kmem_cache]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        60  0.0  0.0      0     0 ?        I<   19:20   0:00 [iscsi_eh]
+Nov 15 19:21:00 raspberrypi systemd[1]: Starting Hold until boot process finishes up...
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        61  0.0  0.0      0     0 ?        I<   19:20   0:00 [dwc_otg]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        62  0.0  0.0      0     0 ?        I<   19:20   0:00 [DWC Notificatio]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        63  0.7  0.0      0     0 ?        I    19:20   0:00 [kworker/3:2-events]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        64  0.0  0.0      0     0 ?        S<   19:20   0:00 [vchiq-slot/0]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        65  0.0  0.0      0     0 ?        S<   19:20   0:00 [vchiq-recy/0]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        66  0.0  0.0      0     0 ?        S<   19:20   0:00 [vchiq-sync/0]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        67  0.0  0.0      0     0 ?        S    19:20   0:00 [vchiq-keep/0]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        68  0.0  0.0      0     0 ?        S<   19:20   0:00 [SMIO]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        69  0.0  0.0      0     0 ?        S    19:20   0:00 [irq/86-mmc1]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        70  0.0  0.0      0     0 ?        I    19:20   0:00 [kworker/3:3-events]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        71  0.0  0.0      0     0 ?        I<   19:20   0:00 [mmc_complete]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        72  0.6  0.0      0     0 ?        I<   19:20   0:00 [kworker/3:1H-kblockd]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        73  1.5  0.0      0     0 ?        I<   19:20   0:00 [kworker/0:1H-mmc_complete]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        74  1.0  0.0      0     0 ?        I<   19:20   0:00 [kworker/1:1H-kblockd]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        75  0.0  0.0      0     0 ?        S    19:20   0:00 [jbd2/mmcblk0p7-]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        76  0.0  0.0      0     0 ?        I<   19:20   0:00 [ext4-rsv-conver]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        77  0.0  0.0      0     0 ?        I<   19:20   0:00 [kworker/1:2H]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        78  0.0  0.0      0     0 ?        I<   19:20   0:00 [kworker/0:2H]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        79  0.0  0.0      0     0 ?        I<   19:20   0:00 [ipv6_addrconf]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        83  0.7  0.0      0     0 ?        I<   19:20   0:00 [kworker/2:1H-kblockd]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root        94  0.0  0.0      0     0 ?        I<   19:20   0:00 [kworker/3:2H]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       105  0.0  0.0      0     0 ?        I<   19:20   0:00 [kworker/2:2H]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       108  8.5  0.6  18940  6248 ?        Rs   19:20   0:00 /lib/systemd/systemd-journald
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       112  0.0  0.0      0     0 ?        I    19:20   0:00 [kworker/u8:2-events_unbound]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       128  1.0  0.2  17276  2636 ?        Ss   19:20   0:00 /lib/systemd/systemd-fsckd
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       129  0.4  0.0      0     0 ?        I    19:20   0:00 [kworker/0:2-memcg_kmem_cache]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       139 31.0  0.4  18428  3872 ?        Ss   19:20   0:01 /lib/systemd/systemd-udevd
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       140  6.6  0.4  18296  4236 ?        S    19:20   0:00 /lib/systemd/systemd-udevd
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       141  8.4  0.4  18296  4384 ?        S    19:20   0:00 /lib/systemd/systemd-udevd
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       142  6.0  0.4  18296  3932 ?        S    19:20   0:00 /lib/systemd/systemd-udevd
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       143  6.6  0.4  18296  4164 ?        S    19:20   0:00 /lib/systemd/systemd-udevd
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       144  5.0  0.3  18296  3464 ?        S    19:20   0:00 /lib/systemd/systemd-udevd
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       146  6.0  0.4  18296  4272 ?        S    19:20   0:00 /lib/systemd/systemd-udevd
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       147  5.0  0.4  18296  3904 ?        S    19:20   0:00 /lib/systemd/systemd-udevd
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       148  6.0  0.4  18296  4532 ?        S    19:20   0:00 /lib/systemd/systemd-udevd
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       149  6.4  0.4  18296  4316 ?        S    19:20   0:00 /lib/systemd/systemd-udevd
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       150  6.8  0.4  18296  4096 ?        S    19:20   0:00 /lib/systemd/systemd-udevd
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       151 28.8  1.5  22652 14912 ?        R    19:20   0:01 @sbin/plymouthd --mode=boot --pid-file=/run/plymouth/pid --attach-to-session
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       154  2.0  0.0      0     0 ?        R    19:20   0:00 [kworker/1:2-events]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       160  0.0  0.0      0     0 ?        S<   19:20   0:00 [SMIO]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       181  0.0  0.0      0     0 ?        I<   19:20   0:00 [mmal-vchiq]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       182  0.0  0.0      0     0 ?        I<   19:20   0:00 [mmal-vchiq]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       183  0.0  0.0      0     0 ?        I<   19:20   0:00 [mmal-vchiq]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       210  0.0  0.0      0     0 ?        I<   19:20   0:00 [cfg80211]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       213  0.0  0.0      0     0 ?        I<   19:20   0:00 [brcmf_wq/mmc1:0]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       214  0.0  0.0      0     0 ?        S    19:20   0:00 [brcmf_wdog/mmc1]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       236  1.6  0.2  12688  2580 ?        Ss   19:20   0:00 /lib/systemd/systemd-rfkill
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: systemd+   266 18.0  0.3  22372  2940 ?        Ssl  19:20   0:00 /lib/systemd/systemd-timesyncd
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       305  1.0  0.1   1940  1080 ?        Ss   19:20   0:00 /bin/sh /usr/bin/btuart
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: message+   311 14.0  0.3   6548  2988 ?        Ss   19:20   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       324  5.0  0.4  10700  4028 ?        Ss   19:20   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       329  3.0  0.0   3692   716 ?        SNs  19:20   0:00 /usr/sbin/alsactl -E HOME=/run/alsa -s -n 19 -c rdaemon
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       339  2.0  0.2   7944  2232 ?        Ss   19:20   0:00 /usr/sbin/cron -f
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       343  8.0  0.0  27656    80 ?        SLsl 19:20   0:00 /usr/sbin/rngd -r /dev/hwrng
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       349  2.0  0.1   2140  1440 ?        S    19:20   0:00 /usr/bin/hciattach /dev/serial1 bcm43xx 921600 noflow - b8:27:eb:12:8d:69
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       353 13.0  0.7  43628  6924 ?        Ssl  19:20   0:00 /usr/lib/udisks2/udisksd
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       359 12.0  0.5  12868  5400 ?        Ss   19:20   0:00 /lib/systemd/systemd-logind
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       361  7.0  0.2  25512  2684 ?        Ssl  19:20   0:00 /usr/sbin/rsyslogd -n -iNONE
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       363  1.0  0.1   1940  1172 ?        Ss   19:20   0:00 /bin/sh /etc/init.d/raspi-config start
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: avahi      364  3.0  0.2   5772  2484 ?        Ss   19:20   0:00 avahi-daemon: running [raspberrypi.local]
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: nobody     367  1.0  0.2   4320  2052 ?        Ss   19:20   0:00 /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --socket /run/thd.socket --user nobody --deviceglob /dev/input/event*
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: avahi      381  0.0  0.0   5772   252 ?        S    19:20   0:00 avahi-daemon: chroot helper
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       382  0.0  0.1   2960  1536 ?        Ss   19:20   0:00 /sbin/dhcpcd -q -b
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       400  1.0  0.1   1940  1236 ?        S    19:20   0:00 /bin/sh /lib/dhcpcd/dhcpcd-run-hooks
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       404  0.0  0.0   6728   480 ?        S    19:20   0:00 timeout 1 thd --dump /dev/input/event0 /dev/input/event1
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       405  0.0  0.0   7348   492 ?        S    19:20   0:00 grep -q LEFTSHIFT\|RIGHTSHIFT
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       407  0.0  0.0   4188   864 ?        S    19:20   0:00 thd --dump /dev/input/event0 /dev/input/event1
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       410  4.0  0.1  10512  1868 ?        Rs   19:20   0:00 /usr/sbin/sshd -t
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       411  2.0  0.2   7808  2676 ?        Ss   19:20   0:00 /bin/bash /home/pi/PBX/Module3/terminalInfo.sh
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       418  0.0  0.2   9788  2576 ?        R    19:21   0:00 ps aux
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: root       419  0.0  0.1  10700  1832 ?        R    19:21   0:00 wpa_supplicant -B -c/etc/wpa_supplicant/wpa_supplicant.conf -iwlan0 -Dnl80211,wext
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: Current Date and Time:
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: Fri 15 Nov 2024 07:21:00 PM MST
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: Kernel Version:
+Nov 15 19:21:00 raspberrypi systemd[1]: Starting Authorization Manager...
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: 4.19.75-v7+
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: Kernel Dump (dmesg output):
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    4.221846] bcm2835-codec bcm2835-codec: Loaded V4L2 isp
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    4.658826] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    4.797959] logitech-djreceiver 0003:046D:C52B.0004: hiddev96,hidraw1: USB HID v1.11 Device [Logitech USB Receiver] on usb-3f980000.usb-1.3/input2
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    4.798422] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    4.906108] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    4.922124] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43430-sdio for chip BCM43430/1
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    4.922402] usbcore: registered new interface driver brcmfmac
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    4.937586] input: Logitech Unifying Device. Wireless PID:400f Keyboard as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3/1-1.3:1.2/0003:046D:C52B.0004/0003:046D:400F.0005/input/input1
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    4.938652] input: Logitech Unifying Device. Wireless PID:400f Consumer Control as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3/1-1.3:1.2/0003:046D:C52B.0004/0003:046D:400F.0005/input/input2
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    4.938932] hid-generic 0003:046D:400F.0005: input,hidraw2: USB HID v1.11 Keyboard [Logitech Unifying Device. Wireless PID:400f] on usb-3f980000.usb-1.3:1
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    5.132843] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43430-sdio for chip BCM43430/1
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    5.132950] brcmfmac: brcmf_c_process_clm_blob: no clm_blob available (err=-2), device may have limited channels available
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    5.133719] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM43430/1 wl0: Oct 23 2017 03:55:53 version 7.45.98.38 (r674442 CY) FWID 01-e58d219f
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    5.747408] input: Logitech K750 as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3/1-1.3:1.2/0003:046D:C52B.0004/0003:046D:400F.0005/input/input6
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    5.752497] logitech-hidpp-device 0003:046D:400F.0005: input,hidraw2: USB HID v1.11 Keyboard [Logitech K750] on usb-3f980000.usb-1.3:1
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    6.518425] random: crng init done
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    6.518438] random: 7 urandom warning(s) missed due to ratelimiting
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    7.363243] uart-pl011 3f201000.serial: no DMA platform data
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    7.753583] 8021q: 802.1Q VLAN Support v1.8
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: [    8.007390] Adding 102396k swap on /var/swap.  Priority:-2 extents:1 across:102396k SSFS
+Nov 15 19:21:00 raspberrypi terminalInfo.sh[411]: ---- End of System Information ----
+Nov 15 19:21:00 raspberrypi systemd[1]: Started Run terminalInfo at boot.
+Nov 15 19:21:00 raspberrypi kernel: [    8.343815] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Nov 15 19:21:00 raspberrypi kernel: [    8.343835] brcmfmac: power management disabled
+Nov 15 19:21:00 raspberrypi polkitd[428]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Nov 15 19:21:00 raspberrypi dbus-daemon[311]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Nov 15 19:21:00 raspberrypi systemd[1]: Started Authorization Manager.
+Nov 15 19:21:00 raspberrypi lightdm[427]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Nov 15 19:21:00 raspberrypi systemd[1]: Started OpenBSD Secure Shell server.
+Nov 15 19:21:00 raspberrypi systemd[1]: Received SIGRTMIN+21 from PID 151 (plymouthd).
+Nov 15 19:21:00 raspberrypi systemd[1]: Received SIGRTMIN+21 from PID 151 (plymouthd).
+Nov 15 19:21:00 raspberrypi systemd[1]: plymouth-quit-wait.service: Succeeded.
+Nov 15 19:21:00 raspberrypi systemd[1]: Started Hold until boot process finishes up.
+Nov 15 19:21:00 raspberrypi systemd[1]: Started Getty on tty1.
+Nov 15 19:21:00 raspberrypi systemd[1]: Reached target Login Prompts.
+Nov 15 19:21:00 raspberrypi systemd[1]: plymouth-start.service: Succeeded.
+Nov 15 19:21:00 raspberrypi systemd[1]: Started Light Display Manager.
+Nov 15 19:21:00 raspberrypi dhcpcd[382]: eth0: waiting for carrier
+Nov 15 19:21:00 raspberrypi dhcpcd[382]: wlan0: waiting for carrier
+Nov 15 19:21:00 raspberrypi dhcpcd[382]: wlan0: carrier acquired
+Nov 15 19:21:00 raspberrypi kernel: [    8.854540] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+Nov 15 19:21:00 raspberrypi kernel: [    8.854821] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Nov 15 19:21:00 raspberrypi dhcpcd[382]: DUID 00:01:00:01:25:1e:c6:d9:b8:27:eb:ed:72:96
+Nov 15 19:21:00 raspberrypi dhcpcd[382]: wlan0: IAID eb:ed:72:96
+Nov 15 19:21:00 raspberrypi dhcpcd[382]: wlan0: adding address fe80::aef7:c2b7:e7a4:c9bd
+Nov 15 19:21:00 raspberrypi avahi-daemon[364]: Joining mDNS multicast group on interface wlan0.IPv6 with address fe80::aef7:c2b7:e7a4:c9bd.
+Nov 15 19:21:00 raspberrypi dhcpcd[382]: wlan0: carrier lost
+Nov 15 19:21:00 raspberrypi avahi-daemon[364]: New relevant interface wlan0.IPv6 for mDNS.
+Nov 15 19:21:00 raspberrypi avahi-daemon[364]: Registering new address record for fe80::aef7:c2b7:e7a4:c9bd on wlan0.*.
+Nov 15 19:21:01 raspberrypi dhcpcd[382]: wlan0: deleting address fe80::aef7:c2b7:e7a4:c9bd
+Nov 15 19:21:01 raspberrypi avahi-daemon[364]: Withdrawing address record for fe80::aef7:c2b7:e7a4:c9bd on wlan0.
+Nov 15 19:21:01 raspberrypi avahi-daemon[364]: Leaving mDNS multicast group on interface wlan0.IPv6 with address fe80::aef7:c2b7:e7a4:c9bd.
+Nov 15 19:21:01 raspberrypi avahi-daemon[364]: Interface wlan0.IPv6 no longer relevant for mDNS.
+Nov 15 19:21:01 raspberrypi systemd[1]: Started Disk Manager.
+Nov 15 19:21:01 raspberrypi udisksd[353]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Nov 15 19:21:01 raspberrypi raspi-config[363]: Checking if shift key is held down: No. Switching to ondemand scaling governor.
+Nov 15 19:21:01 raspberrypi systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Nov 15 19:21:01 raspberrypi kernel: [    9.721449] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Nov 15 19:21:01 raspberrypi dhcpcd[382]: wlan0: carrier acquired
+Nov 15 19:21:01 raspberrypi dhcpcd[382]: wlan0: IAID eb:ed:72:96
+Nov 15 19:21:01 raspberrypi dhcpcd[382]: wlan0: adding address fe80::db7a:b47c:4e2:d96f
+Nov 15 19:21:01 raspberrypi avahi-daemon[364]: Joining mDNS multicast group on interface wlan0.IPv6 with address fe80::db7a:b47c:4e2:d96f.
+Nov 15 19:21:01 raspberrypi avahi-daemon[364]: New relevant interface wlan0.IPv6 for mDNS.
+Nov 15 19:21:01 raspberrypi avahi-daemon[364]: Registering new address record for fe80::db7a:b47c:4e2:d96f on wlan0.*.
+Nov 15 19:21:02 raspberrypi dhcpcd[382]: wlan0: soliciting an IPv6 router
+Nov 15 19:21:02 raspberrypi systemd[1]: systemd-rfkill.service: Succeeded.
+Nov 15 19:21:02 raspberrypi dhcpcd[382]: wlan0: soliciting a DHCP lease
+Nov 15 19:21:02 raspberrypi dhcpcd[382]: wlan0: offered 10.1.1.227 from 10.1.1.1
+Nov 15 19:21:02 raspberrypi dhcpcd[382]: wlan0: probing address 10.1.1.227/24
+Nov 15 19:21:03 raspberrypi lightdm[483]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Nov 15 19:21:03 raspberrypi systemd[1]: Created slice User Slice of UID 1000.
+Nov 15 19:21:03 raspberrypi systemd[1]: Starting User Runtime Directory /run/user/1000...
+Nov 15 19:21:03 raspberrypi systemd[1]: Started User Runtime Directory /run/user/1000.
+Nov 15 19:21:03 raspberrypi systemd[1]: Starting User Manager for UID 1000...
+Nov 15 19:21:03 raspberrypi systemd[491]: Reached target Timers.
+Nov 15 19:21:03 raspberrypi systemd[491]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Nov 15 19:21:03 raspberrypi systemd[491]: Listening on GnuPG network certificate management daemon.
+Nov 15 19:21:03 raspberrypi systemd[491]: Reached target Paths.
+Nov 15 19:21:03 raspberrypi systemd[491]: Listening on GnuPG cryptographic agent and passphrase cache.
+Nov 15 19:21:03 raspberrypi systemd[491]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 15 19:21:03 raspberrypi systemd[491]: Starting D-Bus User Message Bus Socket.
+Nov 15 19:21:03 raspberrypi systemd[491]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 15 19:21:03 raspberrypi systemd[491]: Listening on D-Bus User Message Bus Socket.
+Nov 15 19:21:03 raspberrypi systemd[491]: Reached target Sockets.
+Nov 15 19:21:03 raspberrypi systemd[491]: Reached target Basic System.
+Nov 15 19:21:03 raspberrypi systemd[491]: Reached target Default.
+Nov 15 19:21:03 raspberrypi systemd[491]: Startup finished in 356ms.
+Nov 15 19:21:03 raspberrypi systemd[1]: Started User Manager for UID 1000.
+Nov 15 19:21:03 raspberrypi systemd[1]: Started Session c1 of user pi.
+Nov 15 19:21:03 raspberrypi lightdm[427]: Error opening audit socket: Protocol not supported
+Nov 15 19:21:03 raspberrypi systemd[491]: Started D-Bus User Message Bus.
+Nov 15 19:21:04 raspberrypi kernel: [   12.517537] Bluetooth: Core ver 2.22
+Nov 15 19:21:04 raspberrypi kernel: [   12.517659] NET: Registered protocol family 31
+Nov 15 19:21:04 raspberrypi kernel: [   12.517667] Bluetooth: HCI device and connection manager initialized
+Nov 15 19:21:04 raspberrypi kernel: [   12.517989] Bluetooth: HCI socket layer initialized
+Nov 15 19:21:04 raspberrypi kernel: [   12.518003] Bluetooth: L2CAP socket layer initialized
+Nov 15 19:21:04 raspberrypi kernel: [   12.518045] Bluetooth: SCO socket layer initialized
+Nov 15 19:21:04 raspberrypi btuart[305]: bcm43xx_init
+Nov 15 19:21:04 raspberrypi btuart[305]: Flash firmware /lib/firmware/brcm/BCM43430A1.hcd
+Nov 15 19:21:04 raspberrypi btuart[305]: Set BDADDR UART: b8:27:eb:12:8d:69
+Nov 15 19:21:04 raspberrypi btuart[305]: Set Controller UART speed to 921600 bit/s
+Nov 15 19:21:04 raspberrypi btuart[305]: Device setup complete
+Nov 15 19:21:04 raspberrypi kernel: [   12.535341] Bluetooth: HCI UART driver ver 2.3
+Nov 15 19:21:04 raspberrypi kernel: [   12.535351] Bluetooth: HCI UART protocol H4 registered
+Nov 15 19:21:04 raspberrypi kernel: [   12.535420] Bluetooth: HCI UART protocol Three-wire (H5) registered
+Nov 15 19:21:04 raspberrypi kernel: [   12.535549] Bluetooth: HCI UART protocol Broadcom registered
+Nov 15 19:21:04 raspberrypi systemd[1]: Started Configure Bluetooth Modems connected by UART.
+Nov 15 19:21:04 raspberrypi systemd[1]: Starting Load/Save RF Kill Switch Status...
+Nov 15 19:21:04 raspberrypi systemd[1]: Reached target Multi-User System.
+Nov 15 19:21:04 raspberrypi systemd[1]: Reached target Graphical Interface.
+Nov 15 19:21:04 raspberrypi systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Nov 15 19:21:04 raspberrypi systemd[1]: Started Load/Save RF Kill Switch Status.
+Nov 15 19:21:04 raspberrypi systemd[1]: Created slice system-bthelper.slice.
+Nov 15 19:21:04 raspberrypi systemd[1]: Starting Bluetooth service...
+Nov 15 19:21:04 raspberrypi systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Nov 15 19:21:04 raspberrypi systemd[1]: Started Update UTMP about System Runlevel Changes.
+Nov 15 19:21:04 raspberrypi bluetoothd[556]: Bluetooth daemon 5.50
+Nov 15 19:21:04 raspberrypi systemd[1]: Started Bluetooth service.
+Nov 15 19:21:04 raspberrypi systemd[1]: Reached target Bluetooth.
+Nov 15 19:21:04 raspberrypi systemd[1]: Started BluezALSA proxy.
+Nov 15 19:21:04 raspberrypi systemd[1]: Started Raspberry Pi bluetooth helper.
+Nov 15 19:21:04 raspberrypi systemd[1]: Startup finished in 1.554s (kernel) + 11.291s (userspace) = 12.845s.
+Nov 15 19:21:04 raspberrypi bluetoothd[556]: Starting SDP server
+Nov 15 19:21:05 raspberrypi systemd[1]: bthelper@hci0.service: Succeeded.
+Nov 15 19:21:05 raspberrypi bluetoothd[556]: Bluetooth management interface 1.14 initialized
+Nov 15 19:21:05 raspberrypi kernel: [   12.922376] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Nov 15 19:21:05 raspberrypi kernel: [   12.922383] Bluetooth: BNEP filters: protocol multicast
+Nov 15 19:21:05 raspberrypi kernel: [   12.922399] Bluetooth: BNEP socket layer initialized
+Nov 15 19:21:05 raspberrypi dbus-daemon[311]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.13' (uid=0 pid=556 comm="/usr/lib/bluetooth/bluetoothd ")
+Nov 15 19:21:05 raspberrypi bluetoothd[556]: Sap driver initialization failed.
+Nov 15 19:21:05 raspberrypi bluetoothd[556]: sap-server: Operation not permitted (1)
+Nov 15 19:21:05 raspberrypi bluetoothd[556]: Endpoint registered: sender=:1.14 path=/org/bluez/hci0/A2DP/SBC/Source/1
+Nov 15 19:21:05 raspberrypi bluetoothd[556]: Endpoint registered: sender=:1.14 path=/org/bluez/hci0/A2DP/SBC/Source/2
+Nov 15 19:21:05 raspberrypi systemd[1]: Starting Hostname Service...
+Nov 15 19:21:05 raspberrypi dbus-daemon[515]: [session uid=1000 pid=515] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.3' (uid=1000 pid=506 comm="/usr/bin/lxsession -s LXDE-pi -e LXDE ")
+Nov 15 19:21:05 raspberrypi systemd[491]: Starting Virtual filesystem service...
+Nov 15 19:21:05 raspberrypi kernel: [   12.987307] Bluetooth: RFCOMM TTY layer initialized
+Nov 15 19:21:05 raspberrypi kernel: [   12.987335] Bluetooth: RFCOMM socket layer initialized
+Nov 15 19:21:05 raspberrypi kernel: [   12.987362] Bluetooth: RFCOMM ver 1.11
+Nov 15 19:21:05 raspberrypi systemd[1]: Started Session c2 of user pi.
+Nov 15 19:21:05 raspberrypi bluetoothd[556]: Failed to set privacy: Rejected (0x0b)
+Nov 15 19:21:05 raspberrypi dbus-daemon[515]: [session uid=1000 pid=515] Successfully activated service 'org.gtk.vfs.Daemon'
+Nov 15 19:21:05 raspberrypi systemd[491]: Started Virtual filesystem service.
+Nov 15 19:21:05 raspberrypi kernel: [   13.196860] fuse init (API version 7.27)
+Nov 15 19:21:05 raspberrypi systemd[1]: Mounting FUSE Control File System...
+Nov 15 19:21:05 raspberrypi systemd[1]: Mounted FUSE Control File System.
+Nov 15 19:21:05 raspberrypi dbus-daemon[311]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Nov 15 19:21:05 raspberrypi systemd[1]: Started Hostname Service.
+Nov 15 19:21:06 raspberrypi dbus-daemon[515]: [session uid=1000 pid=515] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.7' (uid=1000 pid=603 comm="pcmanfm --desktop --profile LXDE-pi ")
+Nov 15 19:21:06 raspberrypi systemd[491]: Starting Virtual filesystem service - disk device monitor...
+Nov 15 19:21:06 raspberrypi dbus-daemon[515]: [session uid=1000 pid=515] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Nov 15 19:21:06 raspberrypi systemd[491]: Started Virtual filesystem service - disk device monitor.
+Nov 15 19:21:06 raspberrypi dbus-daemon[515]: [session uid=1000 pid=515] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.7' (uid=1000 pid=603 comm="pcmanfm --desktop --profile LXDE-pi ")
+Nov 15 19:21:06 raspberrypi systemd[491]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Nov 15 19:21:06 raspberrypi gvfs-afc-volume-monitor[659]: Volume monitor alive
+Nov 15 19:21:06 raspberrypi dbus-daemon[515]: [session uid=1000 pid=515] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Nov 15 19:21:06 raspberrypi systemd[491]: Started Virtual filesystem service - Apple File Conduit monitor.
+Nov 15 19:21:06 raspberrypi dbus-daemon[515]: [session uid=1000 pid=515] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.7' (uid=1000 pid=603 comm="pcmanfm --desktop --profile LXDE-pi ")
+Nov 15 19:21:06 raspberrypi systemd[491]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Nov 15 19:21:06 raspberrypi dbus-daemon[515]: [session uid=1000 pid=515] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Nov 15 19:21:06 raspberrypi systemd[491]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Nov 15 19:21:06 raspberrypi dbus-daemon[515]: [session uid=1000 pid=515] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.7' (uid=1000 pid=603 comm="pcmanfm --desktop --profile LXDE-pi ")
+Nov 15 19:21:06 raspberrypi systemd[491]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Nov 15 19:21:06 raspberrypi dbus-daemon[515]: [session uid=1000 pid=515] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Nov 15 19:21:06 raspberrypi systemd[491]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Nov 15 19:21:06 raspberrypi dbus-daemon[515]: [session uid=1000 pid=515] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.7' (uid=1000 pid=603 comm="pcmanfm --desktop --profile LXDE-pi ")
+Nov 15 19:21:06 raspberrypi systemd[491]: Starting Virtual filesystem service - digital camera monitor...
+Nov 15 19:21:06 raspberrypi dbus-daemon[515]: [session uid=1000 pid=515] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Nov 15 19:21:06 raspberrypi systemd[491]: Started Virtual filesystem service - digital camera monitor.
+Nov 15 19:21:07 raspberrypi dhcpcd[382]: wlan0: leased 10.1.1.227 for 86400 seconds
+Nov 15 19:21:07 raspberrypi avahi-daemon[364]: Joining mDNS multicast group on interface wlan0.IPv4 with address 10.1.1.227.
+Nov 15 19:21:07 raspberrypi dhcpcd[382]: wlan0: adding route to 10.1.1.0/24
+Nov 15 19:21:07 raspberrypi dhcpcd[382]: wlan0: adding default route via 10.1.1.1
+Nov 15 19:21:07 raspberrypi avahi-daemon[364]: New relevant interface wlan0.IPv4 for mDNS.
+Nov 15 19:21:07 raspberrypi avahi-daemon[364]: Registering new address record for 10.1.1.227 on wlan0.IPv4.
+Nov 15 19:21:09 raspberrypi systemd[1]: systemd-rfkill.service: Succeeded.
+Nov 15 19:21:15 raspberrypi dhcpcd[382]: wlan0: no IPv6 Routers available
+Nov 15 19:21:28 raspberrypi systemd[1]: systemd-fsckd.service: Succeeded.
+Nov 15 19:21:54 raspberrypi systemd-timesyncd[266]: Synchronized to time server for the first time 54.39.196.172:123 (2.debian.pool.ntp.org).
+Nov 15 19:22:00 raspberrypi systemd[1]: systemd-hostnamed.service: Succeeded.
+Nov 15 19:22:09 raspberrypi systemd[1]: Started Session c3 of user pi.
+Nov 15 19:22:23 raspberrypi systemd[1]: Started Session c4 of user pi.
+Nov 15 19:25:10 raspberrypi systemd[1]: session-c3.scope: Succeeded.

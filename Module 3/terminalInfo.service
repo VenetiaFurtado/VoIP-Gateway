@@ -1,0 +1,12 @@
+[Unit]
+Description=Run terminalInfo at boot
+After=network.target
+
+[Service]
+ExecStart=/home/pi/PBX/Module3/terminalInfo.sh
+Type=oneshot
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
+

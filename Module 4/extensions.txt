@@ -1,0 +1,8 @@
+[from-internal]
+exten = 100,1,Answer()
+same  = n,Wait(3)
+same  = n,Playback(hello-world)
+same = n,Hangup()
+
+exten => 6001,1,Dial(SIP/6001)
+exten => 6002,1,Dial(SIP/6002)
